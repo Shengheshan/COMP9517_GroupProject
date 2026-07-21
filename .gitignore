@@ -1,0 +1,39 @@
+# =========================
+# Dataset
+# =========================
+
+# 原始数据和处理后的大文件不上传 GitHub
+data/raw/*
+data/processed/*
+
+# 保留目录本身以及目录中的说明文件
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/data_meta/.gitkeep
+!data/raw/README.md
+!data/processed/README.md
+!data/data_meta/README.md
+
+# Images
+*.jpg
+*.jpeg
+*.png
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env

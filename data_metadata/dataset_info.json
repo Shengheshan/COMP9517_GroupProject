@@ -1,0 +1,15 @@
+{
+  "dataset_name": "iNaturalist-2021",
+  "split_version": "1.0",
+  "random_seed": 42,
+  "num_classes": 500,
+  "train_images_per_class": 40,
+  "validation_images_per_class": 10,
+  "test_images_per_class": 10,
+  "total_train_images": 20000,
+  "total_validation_images": 5000,
+  "total_test_images": 5000,
+  "train_source": "official train_mini",
+  "validation_source": "held out from official train_mini",
+  "test_source": "official val split, used as project test set"
+}
