@@ -1,0 +1,5002 @@
+{
+  "0": {
+    "category_id": 6,
+    "species_name": "Aculepeira ceropegia",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Araneidae",
+    "genus": "Aculepeira"
+  },
+  "1": {
+    "category_id": 9,
+    "species_name": "Araneus diadematus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Araneidae",
+    "genus": "Araneus"
+  },
+  "2": {
+    "category_id": 27,
+    "species_name": "Eriophora ravilla",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Araneidae",
+    "genus": "Eriophora"
+  },
+  "3": {
+    "category_id": 35,
+    "species_name": "Micrathena mitrata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Araneidae",
+    "genus": "Micrathena"
+  },
+  "4": {
+    "category_id": 53,
+    "species_name": "Badumna longinqua",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Desidae",
+    "genus": "Badumna"
+  },
+  "5": {
+    "category_id": 58,
+    "species_name": "Neriene radiata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Linyphiidae",
+    "genus": "Neriene"
+  },
+  "6": {
+    "category_id": 106,
+    "species_name": "Leucauge argyra",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Tetragnathidae",
+    "genus": "Leucauge"
+  },
+  "7": {
+    "category_id": 117,
+    "species_name": "Latrodectus katipo",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Theridiidae",
+    "genus": "Latrodectus"
+  },
+  "8": {
+    "category_id": 128,
+    "species_name": "Synema globosum",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Araneae",
+    "family": "Thomisidae",
+    "genus": "Synema"
+  },
+  "9": {
+    "category_id": 152,
+    "species_name": "Paravaejovis puritanus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Arachnida",
+    "order": "Scorpiones",
+    "family": "Vaejovidae",
+    "genus": "Paravaejovis"
+  },
+  "10": {
+    "category_id": 158,
+    "species_name": "Scolopendra cingulata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Chilopoda",
+    "order": "Scolopendromorpha",
+    "family": "Scolopendridae",
+    "genus": "Scolopendra"
+  },
+  "11": {
+    "category_id": 188,
+    "species_name": "Cantharis fusca",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Cantharidae",
+    "genus": "Cantharis"
+  },
+  "12": {
+    "category_id": 241,
+    "species_name": "Plectrodera scalator",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Cerambycidae",
+    "genus": "Plectrodera"
+  },
+  "13": {
+    "category_id": 319,
+    "species_name": "Cycloneda sanguinea",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Coccinellidae",
+    "genus": "Cycloneda"
+  },
+  "14": {
+    "category_id": 344,
+    "species_name": "Anthrenus verbasci",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Dermestidae",
+    "genus": "Anthrenus"
+  },
+  "15": {
+    "category_id": 387,
+    "species_name": "Macrodactylus subspinosus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Scarabaeidae",
+    "genus": "Macrodactylus"
+  },
+  "16": {
+    "category_id": 400,
+    "species_name": "Trichiotinus texanus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Scarabaeidae",
+    "genus": "Trichiotinus"
+  },
+  "17": {
+    "category_id": 406,
+    "species_name": "Necrophila americana",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Silphidae",
+    "genus": "Necrophila"
+  },
+  "18": {
+    "category_id": 409,
+    "species_name": "Nicrophorus vespilloides",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Silphidae",
+    "genus": "Nicrophorus"
+  },
+  "19": {
+    "category_id": 434,
+    "species_name": "Xenox tigrinus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Diptera",
+    "family": "Bombyliidae",
+    "genus": "Xenox"
+  },
+  "20": {
+    "category_id": 452,
+    "species_name": "Mydas clavatus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Diptera",
+    "family": "Mydidae",
+    "genus": "Mydas"
+  },
+  "21": {
+    "category_id": 488,
+    "species_name": "Spilomyia longicornis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Diptera",
+    "family": "Syrphidae",
+    "genus": "Spilomyia"
+  },
+  "22": {
+    "category_id": 514,
+    "species_name": "Hyalymenus tarsatus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Alydidae",
+    "genus": "Hyalymenus"
+  },
+  "23": {
+    "category_id": 520,
+    "species_name": "Hormaphis hamamelidis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Aphididae",
+    "genus": "Hormaphis"
+  },
+  "24": {
+    "category_id": 525,
+    "species_name": "Cercopis vulnerata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Cercopidae",
+    "genus": "Cercopis"
+  },
+  "25": {
+    "category_id": 590,
+    "species_name": "Melacoryphus lateralis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Lygaeidae",
+    "genus": "Melacoryphus"
+  },
+  "26": {
+    "category_id": 626,
+    "species_name": "Halyomorpha halys",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Pentatomidae",
+    "genus": "Halyomorpha"
+  },
+  "27": {
+    "category_id": 634,
+    "species_name": "Peribalus strictus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Pentatomidae",
+    "genus": "Peribalus"
+  },
+  "28": {
+    "category_id": 651,
+    "species_name": "Phymata americana",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Reduviidae",
+    "genus": "Phymata"
+  },
+  "29": {
+    "category_id": 653,
+    "species_name": "Rasahus hamatus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hemiptera",
+    "family": "Reduviidae",
+    "genus": "Rasahus"
+  },
+  "30": {
+    "category_id": 685,
+    "species_name": "Bombus fervidus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Apidae",
+    "genus": "Bombus"
+  },
+  "31": {
+    "category_id": 711,
+    "species_name": "Xylocopa micans",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Apidae",
+    "genus": "Xylocopa"
+  },
+  "32": {
+    "category_id": 722,
+    "species_name": "Bicyrtes quadrifasciatus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Crabronidae",
+    "genus": "Bicyrtes"
+  },
+  "33": {
+    "category_id": 727,
+    "species_name": "Amphibolips confluenta",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Cynipidae",
+    "genus": "Amphibolips"
+  },
+  "34": {
+    "category_id": 750,
+    "species_name": "Camponotus sericeiventris",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Formicidae",
+    "genus": "Camponotus"
+  },
+  "35": {
+    "category_id": 757,
+    "species_name": "Liometopum occidentale",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Formicidae",
+    "genus": "Liometopum"
+  },
+  "36": {
+    "category_id": 771,
+    "species_name": "Veromessor pergandei",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Formicidae",
+    "genus": "Veromessor"
+  },
+  "37": {
+    "category_id": 821,
+    "species_name": "Pachodynerus erynnis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Vespidae",
+    "genus": "Pachodynerus"
+  },
+  "38": {
+    "category_id": 828,
+    "species_name": "Polistes chinensis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Vespidae",
+    "genus": "Polistes"
+  },
+  "39": {
+    "category_id": 832,
+    "species_name": "Polistes exclamans",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Hymenoptera",
+    "family": "Vespidae",
+    "genus": "Polistes"
+  },
+  "40": {
+    "category_id": 887,
+    "species_name": "Euchromius ocellea",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Crambidae",
+    "genus": "Euchromius"
+  },
+  "41": {
+    "category_id": 916,
+    "species_name": "Palpita vitrealis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Crambidae",
+    "genus": "Palpita"
+  },
+  "42": {
+    "category_id": 931,
+    "species_name": "Pyrausta inornatalis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Crambidae",
+    "genus": "Pyrausta"
+  },
+  "43": {
+    "category_id": 936,
+    "species_name": "Pyrausta tyralis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Crambidae",
+    "genus": "Pyrausta"
+  },
+  "44": {
+    "category_id": 949,
+    "species_name": "Urola nivalis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Crambidae",
+    "genus": "Urola"
+  },
+  "45": {
+    "category_id": 958,
+    "species_name": "Oreta rosea",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Drepanidae",
+    "genus": "Oreta"
+  },
+  "46": {
+    "category_id": 960,
+    "species_name": "Thyatira batis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Drepanidae",
+    "genus": "Thyatira"
+  },
+  "47": {
+    "category_id": 964,
+    "species_name": "Allotria elonympha",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Allotria"
+  },
+  "48": {
+    "category_id": 993,
+    "species_name": "Calliteara pudibunda",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Calliteara"
+  },
+  "49": {
+    "category_id": 998,
+    "species_name": "Catocala ilia",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Catocala"
+  },
+  "50": {
+    "category_id": 1040,
+    "species_name": "Halysidota harrisii",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Halysidota"
+  },
+  "51": {
+    "category_id": 1049,
+    "species_name": "Hypena madefactalis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Hypena"
+  },
+  "52": {
+    "category_id": 1084,
+    "species_name": "Mocis latipes",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Mocis"
+  },
+  "53": {
+    "category_id": 1104,
+    "species_name": "Parallelia bistriaris",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Parallelia"
+  },
+  "54": {
+    "category_id": 1113,
+    "species_name": "Plusiodonta compressipalpis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Plusiodonta"
+  },
+  "55": {
+    "category_id": 1122,
+    "species_name": "Sphrageidus similis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Sphrageidus"
+  },
+  "56": {
+    "category_id": 1127,
+    "species_name": "Spilosoma virginica",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Spilosoma"
+  },
+  "57": {
+    "category_id": 1133,
+    "species_name": "Utetheisa ornatrix",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Utetheisa"
+  },
+  "58": {
+    "category_id": 1137,
+    "species_name": "Zale horrida",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Zale"
+  },
+  "59": {
+    "category_id": 1139,
+    "species_name": "Zale minerea",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Erebidae",
+    "genus": "Zale"
+  },
+  "60": {
+    "category_id": 1146,
+    "species_name": "Dichomeris flavocostella",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Gelechiidae",
+    "genus": "Dichomeris"
+  },
+  "61": {
+    "category_id": 1160,
+    "species_name": "Campaea perlata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Campaea"
+  },
+  "62": {
+    "category_id": 1163,
+    "species_name": "Caripeta piniata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Caripeta"
+  },
+  "63": {
+    "category_id": 1169,
+    "species_name": "Chloroclystis filata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Chloroclystis"
+  },
+  "64": {
+    "category_id": 1188,
+    "species_name": "Didymoctenia exsuperata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Didymoctenia"
+  },
+  "65": {
+    "category_id": 1193,
+    "species_name": "Disclisioprocta stellata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Disclisioprocta"
+  },
+  "66": {
+    "category_id": 1200,
+    "species_name": "Ectropis crepuscularia",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Ectropis"
+  },
+  "67": {
+    "category_id": 1232,
+    "species_name": "Hyposidra talaca",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Hyposidra"
+  },
+  "68": {
+    "category_id": 1235,
+    "species_name": "Idaea degeneraria",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Idaea"
+  },
+  "69": {
+    "category_id": 1290,
+    "species_name": "Phrissogonus laticostata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Phrissogonus"
+  },
+  "70": {
+    "category_id": 1291,
+    "species_name": "Plagodis alcoolaria",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Plagodis"
+  },
+  "71": {
+    "category_id": 1307,
+    "species_name": "Scopula rubraria",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Scopula"
+  },
+  "72": {
+    "category_id": 1312,
+    "species_name": "Synchlora aerata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Geometridae",
+    "genus": "Synchlora"
+  },
+  "73": {
+    "category_id": 1343,
+    "species_name": "Burnsius communis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Hesperiidae",
+    "genus": "Burnsius"
+  },
+  "74": {
+    "category_id": 1389,
+    "species_name": "Pelopidas mathias",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Hesperiidae",
+    "genus": "Pelopidas"
+  },
+  "75": {
+    "category_id": 1403,
+    "species_name": "Thorybes bathyllus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Hesperiidae",
+    "genus": "Thorybes"
+  },
+  "76": {
+    "category_id": 1424,
+    "species_name": "Tolype velleda",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Lasiocampidae",
+    "genus": "Tolype"
+  },
+  "77": {
+    "category_id": 1489,
+    "species_name": "Jamides bochus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Lycaenidae",
+    "genus": "Jamides"
+  },
+  "78": {
+    "category_id": 1512,
+    "species_name": "Parrhasius m-album",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Lycaenidae",
+    "genus": "Parrhasius"
+  },
+  "79": {
+    "category_id": 1519,
+    "species_name": "Polyommatus coridon",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Lycaenidae",
+    "genus": "Polyommatus"
+  },
+  "80": {
+    "category_id": 1528,
+    "species_name": "Satyrium edwardsii",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Lycaenidae",
+    "genus": "Satyrium"
+  },
+  "81": {
+    "category_id": 1530,
+    "species_name": "Satyrium liparops",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Lycaenidae",
+    "genus": "Satyrium"
+  },
+  "82": {
+    "category_id": 1535,
+    "species_name": "Strymon istapa",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Lycaenidae",
+    "genus": "Strymon"
+  },
+  "83": {
+    "category_id": 1545,
+    "species_name": "Megalopyge opercularis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Megalopygidae",
+    "genus": "Megalopyge"
+  },
+  "84": {
+    "category_id": 1584,
+    "species_name": "Autographa gamma",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Autographa"
+  },
+  "85": {
+    "category_id": 1588,
+    "species_name": "Callopistria cordata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Callopistria"
+  },
+  "86": {
+    "category_id": 1604,
+    "species_name": "Cosmia calami",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Cosmia"
+  },
+  "87": {
+    "category_id": 1612,
+    "species_name": "Deltote pygarga",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Deltote"
+  },
+  "88": {
+    "category_id": 1638,
+    "species_name": "Ichneutica mutans",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Ichneutica"
+  },
+  "89": {
+    "category_id": 1654,
+    "species_name": "Marimatha nigrofimbria",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Marimatha"
+  },
+  "90": {
+    "category_id": 1674,
+    "species_name": "Orthosia gothica",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Orthosia"
+  },
+  "91": {
+    "category_id": 1679,
+    "species_name": "Papaipema inquaesita",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Papaipema"
+  },
+  "92": {
+    "category_id": 1684,
+    "species_name": "Phlogophora periculosa",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Phlogophora"
+  },
+  "93": {
+    "category_id": 1697,
+    "species_name": "Psychomorpha epimenis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Noctuidae",
+    "genus": "Psychomorpha"
+  },
+  "94": {
+    "category_id": 1743,
+    "species_name": "Macrurocampa marthesia",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Notodontidae",
+    "genus": "Macrurocampa"
+  },
+  "95": {
+    "category_id": 1753,
+    "species_name": "Pheosidea elegans",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Notodontidae",
+    "genus": "Pheosidea"
+  },
+  "96": {
+    "category_id": 1771,
+    "species_name": "Aglais urticae",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Aglais"
+  },
+  "97": {
+    "category_id": 1776,
+    "species_name": "Anartia fatima",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Anartia"
+  },
+  "98": {
+    "category_id": 1790,
+    "species_name": "Asterocampa clyton",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Asterocampa"
+  },
+  "99": {
+    "category_id": 1796,
+    "species_name": "Boloria chariclea",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Boloria"
+  },
+  "100": {
+    "category_id": 1824,
+    "species_name": "Cyllopsis gemma",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Cyllopsis"
+  },
+  "101": {
+    "category_id": 1827,
+    "species_name": "Danaus eresimus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Danaus"
+  },
+  "102": {
+    "category_id": 1832,
+    "species_name": "Danaus plexippus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Danaus"
+  },
+  "103": {
+    "category_id": 1876,
+    "species_name": "Historis odius",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Historis"
+  },
+  "104": {
+    "category_id": 1889,
+    "species_name": "Junonia lemonias",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Junonia"
+  },
+  "105": {
+    "category_id": 1891,
+    "species_name": "Junonia oenone",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Junonia"
+  },
+  "106": {
+    "category_id": 1894,
+    "species_name": "Junonia villida",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Junonia"
+  },
+  "107": {
+    "category_id": 1964,
+    "species_name": "Pyronia cecilia",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Pyronia"
+  },
+  "108": {
+    "category_id": 1982,
+    "species_name": "Tisiphone abeona",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Tisiphone"
+  },
+  "109": {
+    "category_id": 2041,
+    "species_name": "Parnassius smintheus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Papilionidae",
+    "genus": "Parnassius"
+  },
+  "110": {
+    "category_id": 2045,
+    "species_name": "Abaeis nicippe",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Pieridae",
+    "genus": "Abaeis"
+  },
+  "111": {
+    "category_id": 2060,
+    "species_name": "Catopsilia pomona",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Pieridae",
+    "genus": "Catopsilia"
+  },
+  "112": {
+    "category_id": 2085,
+    "species_name": "Mylothris agathina",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Pieridae",
+    "genus": "Mylothris"
+  },
+  "113": {
+    "category_id": 2088,
+    "species_name": "Pareronia hippia",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Pieridae",
+    "genus": "Pareronia"
+  },
+  "114": {
+    "category_id": 2103,
+    "species_name": "Pyrisitia lisa",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Pieridae",
+    "genus": "Pyrisitia"
+  },
+  "115": {
+    "category_id": 2143,
+    "species_name": "Hamearis lucina",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Riodinidae",
+    "genus": "Hamearis"
+  },
+  "116": {
+    "category_id": 2144,
+    "species_name": "Melanis cephise",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Riodinidae",
+    "genus": "Melanis"
+  },
+  "117": {
+    "category_id": 2167,
+    "species_name": "Saturnia pyri",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Saturniidae",
+    "genus": "Saturnia"
+  },
+  "118": {
+    "category_id": 2170,
+    "species_name": "Synanthedon acerni",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Sesiidae",
+    "genus": "Synanthedon"
+  },
+  "119": {
+    "category_id": 2200,
+    "species_name": "Hyles gallii",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Sphingidae",
+    "genus": "Hyles"
+  },
+  "120": {
+    "category_id": 2266,
+    "species_name": "Syricoris lacunana",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Lepidoptera",
+    "family": "Tortricidae",
+    "genus": "Syricoris"
+  },
+  "121": {
+    "category_id": 2286,
+    "species_name": "Pseudomantis albofimbriata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Mantodea",
+    "family": "Mantidae",
+    "genus": "Pseudomantis"
+  },
+  "122": {
+    "category_id": 2287,
+    "species_name": "Stagmomantis carolina",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Mantodea",
+    "family": "Mantidae",
+    "genus": "Stagmomantis"
+  },
+  "123": {
+    "category_id": 2296,
+    "species_name": "Corydalus cornutus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Megaloptera",
+    "family": "Corydalidae",
+    "genus": "Corydalus"
+  },
+  "124": {
+    "category_id": 2340,
+    "species_name": "Agriocnemis femina",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Coenagrionidae",
+    "genus": "Agriocnemis"
+  },
+  "125": {
+    "category_id": 2414,
+    "species_name": "Epitheca princeps",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Corduliidae",
+    "genus": "Epitheca"
+  },
+  "126": {
+    "category_id": 2426,
+    "species_name": "Dromogomphus spoliatus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Gomphidae",
+    "genus": "Dromogomphus"
+  },
+  "127": {
+    "category_id": 2442,
+    "species_name": "Stylogomphus albistylus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Gomphidae",
+    "genus": "Stylogomphus"
+  },
+  "128": {
+    "category_id": 2504,
+    "species_name": "Libellula axilena",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Libellula"
+  },
+  "129": {
+    "category_id": 2532,
+    "species_name": "Orthetrum brunneum",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Orthetrum"
+  },
+  "130": {
+    "category_id": 2536,
+    "species_name": "Orthetrum chrysostigma",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Orthetrum"
+  },
+  "131": {
+    "category_id": 2546,
+    "species_name": "Pachydiplax longipennis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Pachydiplax"
+  },
+  "132": {
+    "category_id": 2547,
+    "species_name": "Palpopleura lucia",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Palpopleura"
+  },
+  "133": {
+    "category_id": 2579,
+    "species_name": "Tramea lacerata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Tramea"
+  },
+  "134": {
+    "category_id": 2584,
+    "species_name": "Trithemis festiva",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Trithemis"
+  },
+  "135": {
+    "category_id": 2591,
+    "species_name": "Tachopteryx thoreyi",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "Petaluridae",
+    "genus": "Tachopteryx"
+  },
+  "136": {
+    "category_id": 2608,
+    "species_name": "Chrysochraon dispar",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Acrididae",
+    "genus": "Chrysochraon"
+  },
+  "137": {
+    "category_id": 2615,
+    "species_name": "Leptysma marginicollis",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Acrididae",
+    "genus": "Leptysma"
+  },
+  "138": {
+    "category_id": 2621,
+    "species_name": "Mermiria bivittata",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Acrididae",
+    "genus": "Mermiria"
+  },
+  "139": {
+    "category_id": 2646,
+    "species_name": "Gryllus campestris",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Gryllidae",
+    "genus": "Gryllus"
+  },
+  "140": {
+    "category_id": 2647,
+    "species_name": "Gryllus pennsylvanicus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Gryllidae",
+    "genus": "Gryllus"
+  },
+  "141": {
+    "category_id": 2662,
+    "species_name": "Tropidacris collaris",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Romaleidae",
+    "genus": "Tropidacris"
+  },
+  "142": {
+    "category_id": 2664,
+    "species_name": "Anabrus simplex",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Tettigoniidae",
+    "genus": "Anabrus"
+  },
+  "143": {
+    "category_id": 2677,
+    "species_name": "Neoconocephalus triops",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Tettigoniidae",
+    "genus": "Neoconocephalus"
+  },
+  "144": {
+    "category_id": 2697,
+    "species_name": "Cerastipsocus venosus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Psocodea",
+    "family": "Psocidae",
+    "genus": "Cerastipsocus"
+  },
+  "145": {
+    "category_id": 2705,
+    "species_name": "Cancer irroratus",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Malacostraca",
+    "order": "Decapoda",
+    "family": "Cancridae",
+    "genus": "Cancer"
+  },
+  "146": {
+    "category_id": 2724,
+    "species_name": "Leptuca pugilator",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Malacostraca",
+    "order": "Decapoda",
+    "family": "Ocypodidae",
+    "genus": "Leptuca"
+  },
+  "147": {
+    "category_id": 2780,
+    "species_name": "Megalops atlanticus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "order": "Elopiformes",
+    "family": "Megalopidae",
+    "genus": "Megalops"
+  },
+  "148": {
+    "category_id": 2803,
+    "species_name": "Lepomis gulosus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "order": "Perciformes",
+    "family": "Centrarchidae",
+    "genus": "Lepomis"
+  },
+  "149": {
+    "category_id": 2851,
+    "species_name": "Schuettea scalaripinnis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "order": "Perciformes",
+    "family": "Monodactylidae",
+    "genus": "Schuettea"
+  },
+  "150": {
+    "category_id": 2900,
+    "species_name": "Oncorhynchus mykiss",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "order": "Salmoniformes",
+    "family": "Salmonidae",
+    "genus": "Oncorhynchus"
+  },
+  "151": {
+    "category_id": 2925,
+    "species_name": "Dicotylichthys punctulatus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "order": "Tetraodontiformes",
+    "family": "Diodontidae",
+    "genus": "Dicotylichthys"
+  },
+  "152": {
+    "category_id": 2927,
+    "species_name": "Diodon hystrix",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "order": "Tetraodontiformes",
+    "family": "Diodontidae",
+    "genus": "Diodon"
+  },
+  "153": {
+    "category_id": 2938,
+    "species_name": "Tetractenos glaber",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Actinopterygii",
+    "order": "Tetraodontiformes",
+    "family": "Tetraodontidae",
+    "genus": "Tetractenos"
+  },
+  "154": {
+    "category_id": 3006,
+    "species_name": "Hyperolius marmoratus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Amphibia",
+    "order": "Anura",
+    "family": "Hyperoliidae",
+    "genus": "Hyperolius"
+  },
+  "155": {
+    "category_id": 3044,
+    "species_name": "Rana draytonii",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Amphibia",
+    "order": "Anura",
+    "family": "Ranidae",
+    "genus": "Rana"
+  },
+  "156": {
+    "category_id": 3111,
+    "species_name": "Accipiter badius",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Accipiter"
+  },
+  "157": {
+    "category_id": 3114,
+    "species_name": "Accipiter nisus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Accipiter"
+  },
+  "158": {
+    "category_id": 3116,
+    "species_name": "Accipiter trivirgatus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Accipiter"
+  },
+  "159": {
+    "category_id": 3119,
+    "species_name": "Aquila chrysaetos",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Aquila"
+  },
+  "160": {
+    "category_id": 3139,
+    "species_name": "Chondrohierax uncinatus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Chondrohierax"
+  },
+  "161": {
+    "category_id": 3143,
+    "species_name": "Circus approximans",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Circus"
+  },
+  "162": {
+    "category_id": 3150,
+    "species_name": "Elanus axillaris",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Elanus"
+  },
+  "163": {
+    "category_id": 3164,
+    "species_name": "Haliastur indus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Haliastur"
+  },
+  "164": {
+    "category_id": 3228,
+    "species_name": "Branta leucopsis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Anseriformes",
+    "family": "Anatidae",
+    "genus": "Branta"
+  },
+  "165": {
+    "category_id": 3257,
+    "species_name": "Melanitta deglandi",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Anseriformes",
+    "family": "Anatidae",
+    "genus": "Melanitta"
+  },
+  "166": {
+    "category_id": 3258,
+    "species_name": "Melanitta perspicillata",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Anseriformes",
+    "family": "Anatidae",
+    "genus": "Melanitta"
+  },
+  "167": {
+    "category_id": 3262,
+    "species_name": "Netta peposaca",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Anseriformes",
+    "family": "Anatidae",
+    "genus": "Netta"
+  },
+  "168": {
+    "category_id": 3269,
+    "species_name": "Spatula cyanoptera",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Anseriformes",
+    "family": "Anatidae",
+    "genus": "Spatula"
+  },
+  "169": {
+    "category_id": 3295,
+    "species_name": "Nyctibius griseus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Caprimulgiformes",
+    "family": "Nyctibiidae",
+    "genus": "Nyctibius"
+  },
+  "170": {
+    "category_id": 3335,
+    "species_name": "Sarcoramphus papa",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Cathartiformes",
+    "family": "Cathartidae",
+    "genus": "Sarcoramphus"
+  },
+  "171": {
+    "category_id": 3346,
+    "species_name": "Burhinus grallarius",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Burhinidae",
+    "genus": "Burhinus"
+  },
+  "172": {
+    "category_id": 3432,
+    "species_name": "Sterna hirundo",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Laridae",
+    "genus": "Sterna"
+  },
+  "173": {
+    "category_id": 3441,
+    "species_name": "Himantopus himantopus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Recurvirostridae",
+    "genus": "Himantopus"
+  },
+  "174": {
+    "category_id": 3443,
+    "species_name": "Himantopus mexicanus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Recurvirostridae",
+    "genus": "Himantopus"
+  },
+  "175": {
+    "category_id": 3450,
+    "species_name": "Arenaria melanocephala",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Scolopacidae",
+    "genus": "Arenaria"
+  },
+  "176": {
+    "category_id": 3456,
+    "species_name": "Calidris canutus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Scolopacidae",
+    "genus": "Calidris"
+  },
+  "177": {
+    "category_id": 3470,
+    "species_name": "Calidris virgata",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Scolopacidae",
+    "genus": "Calidris"
+  },
+  "178": {
+    "category_id": 3483,
+    "species_name": "Phalaropus fulicarius",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Scolopacidae",
+    "genus": "Phalaropus"
+  },
+  "179": {
+    "category_id": 3492,
+    "species_name": "Tringa melanoleuca",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Charadriiformes",
+    "family": "Scolopacidae",
+    "genus": "Tringa"
+  },
+  "180": {
+    "category_id": 3501,
+    "species_name": "Anastomus oscitans",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Ciconiiformes",
+    "family": "Ciconiidae",
+    "genus": "Anastomus"
+  },
+  "181": {
+    "category_id": 3502,
+    "species_name": "Ciconia ciconia",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Ciconiiformes",
+    "family": "Ciconiidae",
+    "genus": "Ciconia"
+  },
+  "182": {
+    "category_id": 3510,
+    "species_name": "Mycteria leucocephala",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Ciconiiformes",
+    "family": "Ciconiidae",
+    "genus": "Mycteria"
+  },
+  "183": {
+    "category_id": 3527,
+    "species_name": "Patagioenas cayennensis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Columbiformes",
+    "family": "Columbidae",
+    "genus": "Patagioenas"
+  },
+  "184": {
+    "category_id": 3566,
+    "species_name": "Coracias garrulus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Coraciiformes",
+    "family": "Coraciidae",
+    "genus": "Coracias"
+  },
+  "185": {
+    "category_id": 3582,
+    "species_name": "Coccyzus americanus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Cuculiformes",
+    "family": "Cuculidae",
+    "genus": "Coccyzus"
+  },
+  "186": {
+    "category_id": 3593,
+    "species_name": "Caracara plancus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Falconiformes",
+    "family": "Falconidae",
+    "genus": "Caracara"
+  },
+  "187": {
+    "category_id": 3598,
+    "species_name": "Falco mexicanus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Falconiformes",
+    "family": "Falconidae",
+    "genus": "Falco"
+  },
+  "188": {
+    "category_id": 3608,
+    "species_name": "Herpetotheres cachinnans",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Falconiformes",
+    "family": "Falconidae",
+    "genus": "Herpetotheres"
+  },
+  "189": {
+    "category_id": 3611,
+    "species_name": "Galbula ruficauda",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Galbuliformes",
+    "family": "Galbulidae",
+    "genus": "Galbula"
+  },
+  "190": {
+    "category_id": 3644,
+    "species_name": "Gavia stellata",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Gaviiformes",
+    "family": "Gaviidae",
+    "genus": "Gavia"
+  },
+  "191": {
+    "category_id": 3652,
+    "species_name": "Amaurornis phoenicurus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Gruiformes",
+    "family": "Rallidae",
+    "genus": "Amaurornis"
+  },
+  "192": {
+    "category_id": 3657,
+    "species_name": "Fulica armillata",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Gruiformes",
+    "family": "Rallidae",
+    "genus": "Fulica"
+  },
+  "193": {
+    "category_id": 3680,
+    "species_name": "Gerygone igata",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Acanthizidae",
+    "genus": "Gerygone"
+  },
+  "194": {
+    "category_id": 3681,
+    "species_name": "Sericornis frontalis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Acanthizidae",
+    "genus": "Sericornis"
+  },
+  "195": {
+    "category_id": 3728,
+    "species_name": "Certhia americana",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Certhiidae",
+    "genus": "Certhia"
+  },
+  "196": {
+    "category_id": 3733,
+    "species_name": "Cisticola exilis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Cisticolidae",
+    "genus": "Cisticola"
+  },
+  "197": {
+    "category_id": 3750,
+    "species_name": "Corvus caurinus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Corvidae",
+    "genus": "Corvus"
+  },
+  "198": {
+    "category_id": 3752,
+    "species_name": "Corvus cornix",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Corvidae",
+    "genus": "Corvus"
+  },
+  "199": {
+    "category_id": 3770,
+    "species_name": "Nucifraga caryocatactes",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Corvidae",
+    "genus": "Nucifraga"
+  },
+  "200": {
+    "category_id": 3811,
+    "species_name": "Carpodacus sibiricus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Fringillidae",
+    "genus": "Carpodacus"
+  },
+  "201": {
+    "category_id": 3814,
+    "species_name": "Coccothraustes coccothraustes",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Fringillidae",
+    "genus": "Coccothraustes"
+  },
+  "202": {
+    "category_id": 3848,
+    "species_name": "Hirundo neoxena",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Hirundinidae",
+    "genus": "Hirundo"
+  },
+  "203": {
+    "category_id": 3853,
+    "species_name": "Petrochelidon pyrrhonota",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Hirundinidae",
+    "genus": "Petrochelidon"
+  },
+  "204": {
+    "category_id": 3872,
+    "species_name": "Dives dives",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Icteridae",
+    "genus": "Dives"
+  },
+  "205": {
+    "category_id": 3878,
+    "species_name": "Icterus chrysater",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Icteridae",
+    "genus": "Icterus"
+  },
+  "206": {
+    "category_id": 3899,
+    "species_name": "Quiscalus mexicanus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Icteridae",
+    "genus": "Quiscalus"
+  },
+  "207": {
+    "category_id": 3910,
+    "species_name": "Lanius excubitor",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Laniidae",
+    "genus": "Lanius"
+  },
+  "208": {
+    "category_id": 3923,
+    "species_name": "Acanthorhynchus tenuirostris",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Meliphagidae",
+    "genus": "Acanthorhynchus"
+  },
+  "209": {
+    "category_id": 3946,
+    "species_name": "Oreoscoptes montanus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Mimidae",
+    "genus": "Oreoscoptes"
+  },
+  "210": {
+    "category_id": 3981,
+    "species_name": "Luscinia luscinia",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Muscicapidae",
+    "genus": "Luscinia"
+  },
+  "211": {
+    "category_id": 4002,
+    "species_name": "Aethopyga siparaja",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Nectariniidae",
+    "genus": "Aethopyga"
+  },
+  "212": {
+    "category_id": 4010,
+    "species_name": "Cinnyris jugularis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Nectariniidae",
+    "genus": "Cinnyris"
+  },
+  "213": {
+    "category_id": 4011,
+    "species_name": "Hedydipna collaris",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Nectariniidae",
+    "genus": "Hedydipna"
+  },
+  "214": {
+    "category_id": 4012,
+    "species_name": "Leptocoma zeylonica",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Nectariniidae",
+    "genus": "Leptocoma"
+  },
+  "215": {
+    "category_id": 4033,
+    "species_name": "Lophophanes cristatus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Paridae",
+    "genus": "Lophophanes"
+  },
+  "216": {
+    "category_id": 4040,
+    "species_name": "Poecile hudsonicus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Paridae",
+    "genus": "Poecile"
+  },
+  "217": {
+    "category_id": 4061,
+    "species_name": "Parkesia motacilla",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Parulidae",
+    "genus": "Parkesia"
+  },
+  "218": {
+    "category_id": 4065,
+    "species_name": "Setophaga americana",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Parulidae",
+    "genus": "Setophaga"
+  },
+  "219": {
+    "category_id": 4073,
+    "species_name": "Setophaga dominica",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Parulidae",
+    "genus": "Setophaga"
+  },
+  "220": {
+    "category_id": 4088,
+    "species_name": "Setophaga virens",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Parulidae",
+    "genus": "Setophaga"
+  },
+  "221": {
+    "category_id": 4092,
+    "species_name": "Ammodramus savannarum",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Passerellidae",
+    "genus": "Ammodramus"
+  },
+  "222": {
+    "category_id": 4114,
+    "species_name": "Peucaea carpalis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Passerellidae",
+    "genus": "Peucaea"
+  },
+  "223": {
+    "category_id": 4119,
+    "species_name": "Pipilo maculatus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Passerellidae",
+    "genus": "Pipilo"
+  },
+  "224": {
+    "category_id": 4173,
+    "species_name": "Pycnonotus goiavier",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Pycnonotidae",
+    "genus": "Pycnonotus"
+  },
+  "225": {
+    "category_id": 4272,
+    "species_name": "Myadestes townsendi",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Turdidae",
+    "genus": "Myadestes"
+  },
+  "226": {
+    "category_id": 4279,
+    "species_name": "Turdus fuscater",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Turdidae",
+    "genus": "Turdus"
+  },
+  "227": {
+    "category_id": 4291,
+    "species_name": "Turdus viscivorus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Turdidae",
+    "genus": "Turdus"
+  },
+  "228": {
+    "category_id": 4304,
+    "species_name": "Empidonax occidentalis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Tyrannidae",
+    "genus": "Empidonax"
+  },
+  "229": {
+    "category_id": 4315,
+    "species_name": "Myiarchus tuberculifer",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Tyrannidae",
+    "genus": "Myiarchus"
+  },
+  "230": {
+    "category_id": 4325,
+    "species_name": "Sayornis saya",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Tyrannidae",
+    "genus": "Sayornis"
+  },
+  "231": {
+    "category_id": 4333,
+    "species_name": "Tyrannus savana",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Tyrannidae",
+    "genus": "Tyrannus"
+  },
+  "232": {
+    "category_id": 4339,
+    "species_name": "Vireo bellii",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Vireonidae",
+    "genus": "Vireo"
+  },
+  "233": {
+    "category_id": 4342,
+    "species_name": "Vireo flavoviridis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Vireonidae",
+    "genus": "Vireo"
+  },
+  "234": {
+    "category_id": 4345,
+    "species_name": "Vireo huttoni",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Vireonidae",
+    "genus": "Vireo"
+  },
+  "235": {
+    "category_id": 4349,
+    "species_name": "Vireo solitarius",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Vireonidae",
+    "genus": "Vireo"
+  },
+  "236": {
+    "category_id": 4351,
+    "species_name": "Zosterops lateralis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Zosteropidae",
+    "genus": "Zosterops"
+  },
+  "237": {
+    "category_id": 4371,
+    "species_name": "Butorides virescens",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Pelecaniformes",
+    "family": "Ardeidae",
+    "genus": "Butorides"
+  },
+  "238": {
+    "category_id": 4374,
+    "species_name": "Egretta garzetta",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Pelecaniformes",
+    "family": "Ardeidae",
+    "genus": "Egretta"
+  },
+  "239": {
+    "category_id": 4386,
+    "species_name": "Nycticorax nycticorax",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Pelecaniformes",
+    "family": "Ardeidae",
+    "genus": "Nycticorax"
+  },
+  "240": {
+    "category_id": 4422,
+    "species_name": "Psilopogon haemacephalus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Piciformes",
+    "family": "Megalaimidae",
+    "genus": "Psilopogon"
+  },
+  "241": {
+    "category_id": 4462,
+    "species_name": "Picus viridis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Piciformes",
+    "family": "Picidae",
+    "genus": "Picus"
+  },
+  "242": {
+    "category_id": 4506,
+    "species_name": "Ara ararauna",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Psittaciformes",
+    "family": "Psittacidae",
+    "genus": "Ara"
+  },
+  "243": {
+    "category_id": 4533,
+    "species_name": "Trichoglossus moluccanus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Psittaciformes",
+    "family": "Psittaculidae",
+    "genus": "Trichoglossus"
+  },
+  "244": {
+    "category_id": 4552,
+    "species_name": "Glaucidium gnoma",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Glaucidium"
+  },
+  "245": {
+    "category_id": 4554,
+    "species_name": "Megascops choliba",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Megascops"
+  },
+  "246": {
+    "category_id": 4557,
+    "species_name": "Strix aluco",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Strix"
+  },
+  "247": {
+    "category_id": 4562,
+    "species_name": "Tyto alba",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Tytonidae",
+    "genus": "Tyto"
+  },
+  "248": {
+    "category_id": 4563,
+    "species_name": "Struthio camelus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Struthioniformes",
+    "family": "Struthionidae",
+    "genus": "Struthio"
+  },
+  "249": {
+    "category_id": 4564,
+    "species_name": "Anhinga anhinga",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Suliformes",
+    "family": "Anhingidae",
+    "genus": "Anhinga"
+  },
+  "250": {
+    "category_id": 4573,
+    "species_name": "Phalacrocorax aristotelis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Suliformes",
+    "family": "Phalacrocoracidae",
+    "genus": "Phalacrocorax"
+  },
+  "251": {
+    "category_id": 4616,
+    "species_name": "Aepyceros melampus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Aepyceros"
+  },
+  "252": {
+    "category_id": 4649,
+    "species_name": "Cervus canadensis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Cervidae",
+    "genus": "Cervus"
+  },
+  "253": {
+    "category_id": 4669,
+    "species_name": "Canis familiaris",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Canidae",
+    "genus": "Canis"
+  },
+  "254": {
+    "category_id": 4673,
+    "species_name": "Lycalopex culpaeus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Canidae",
+    "genus": "Lycalopex"
+  },
+  "255": {
+    "category_id": 4700,
+    "species_name": "Mustela nivalis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Mustelidae",
+    "genus": "Mustela"
+  },
+  "256": {
+    "category_id": 4741,
+    "species_name": "Trichosurus vulpecula",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Diprotodontia",
+    "family": "Phalangeridae",
+    "genus": "Trichosurus"
+  },
+  "257": {
+    "category_id": 4803,
+    "species_name": "Ondatra zibethicus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Rodentia",
+    "family": "Cricetidae",
+    "genus": "Ondatra"
+  },
+  "258": {
+    "category_id": 4808,
+    "species_name": "Myocastor coypus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Rodentia",
+    "family": "Echimyidae",
+    "genus": "Myocastor"
+  },
+  "259": {
+    "category_id": 4844,
+    "species_name": "Sciurus carolinensis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Mammalia",
+    "order": "Rodentia",
+    "family": "Sciuridae",
+    "genus": "Sciurus"
+  },
+  "260": {
+    "category_id": 4861,
+    "species_name": "Crocodylus acutus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Crocodylia",
+    "family": "Crocodylidae",
+    "genus": "Crocodylus"
+  },
+  "261": {
+    "category_id": 4889,
+    "species_name": "Charina bottae",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Boidae",
+    "genus": "Charina"
+  },
+  "262": {
+    "category_id": 4905,
+    "species_name": "Dendrelaphis punctulatus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Colubridae",
+    "genus": "Dendrelaphis"
+  },
+  "263": {
+    "category_id": 4915,
+    "species_name": "Hypsiglena jani",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Colubridae",
+    "genus": "Hypsiglena"
+  },
+  "264": {
+    "category_id": 4920,
+    "species_name": "Lampropeltis gentilis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Colubridae",
+    "genus": "Lampropeltis"
+  },
+  "265": {
+    "category_id": 4930,
+    "species_name": "Masticophis mentovarius",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Colubridae",
+    "genus": "Masticophis"
+  },
+  "266": {
+    "category_id": 4956,
+    "species_name": "Regina septemvittata",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Colubridae",
+    "genus": "Regina"
+  },
+  "267": {
+    "category_id": 4978,
+    "species_name": "Cordylus niger",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Cordylidae",
+    "genus": "Cordylus"
+  },
+  "268": {
+    "category_id": 5000,
+    "species_name": "Christinus marmoratus",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Gekkonidae",
+    "genus": "Christinus"
+  },
+  "269": {
+    "category_id": 5038,
+    "species_name": "Phrynosoma hernandesi",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Phrynosomatidae",
+    "genus": "Phrynosoma"
+  },
+  "270": {
+    "category_id": 5050,
+    "species_name": "Sceloporus jarrovii",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Phrynosomatidae",
+    "genus": "Sceloporus"
+  },
+  "271": {
+    "category_id": 5067,
+    "species_name": "Tarentola mauritanica",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Phyllodactylidae",
+    "genus": "Tarentola"
+  },
+  "272": {
+    "category_id": 5085,
+    "species_name": "Trachylepis margaritifera",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Scincidae",
+    "genus": "Trachylepis"
+  },
+  "273": {
+    "category_id": 5107,
+    "species_name": "Agkistrodon contortrix",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Viperidae",
+    "genus": "Agkistrodon"
+  },
+  "274": {
+    "category_id": 5138,
+    "species_name": "Clemmys guttata",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Emydidae",
+    "genus": "Clemmys"
+  },
+  "275": {
+    "category_id": 5139,
+    "species_name": "Emydoidea blandingii",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Emydidae",
+    "genus": "Emydoidea"
+  },
+  "276": {
+    "category_id": 5143,
+    "species_name": "Graptemys ouachitensis",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Emydidae",
+    "genus": "Graptemys"
+  },
+  "277": {
+    "category_id": 5147,
+    "species_name": "Pseudemys nelsoni",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Emydidae",
+    "genus": "Pseudemys"
+  },
+  "278": {
+    "category_id": 5155,
+    "species_name": "Mauremys leprosa",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Geoemydidae",
+    "genus": "Mauremys"
+  },
+  "279": {
+    "category_id": 5168,
+    "species_name": "Testudo graeca",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Testudinidae",
+    "genus": "Testudo"
+  },
+  "280": {
+    "category_id": 5180,
+    "species_name": "Isactinia olivacea",
+    "kingdom": "Animalia",
+    "phylum": "Cnidaria",
+    "class": "Anthozoa",
+    "order": "Actiniaria",
+    "family": "Actiniidae",
+    "genus": "Isactinia"
+  },
+  "281": {
+    "category_id": 5183,
+    "species_name": "Urticina grebelnyi",
+    "kingdom": "Animalia",
+    "phylum": "Cnidaria",
+    "class": "Anthozoa",
+    "order": "Actiniaria",
+    "family": "Actiniidae",
+    "genus": "Urticina"
+  },
+  "282": {
+    "category_id": 5279,
+    "species_name": "Cominella adspersa",
+    "kingdom": "Animalia",
+    "phylum": "Mollusca",
+    "class": "Gastropoda",
+    "order": "Neogastropoda",
+    "family": "Buccinidae",
+    "genus": "Cominella"
+  },
+  "283": {
+    "category_id": 5310,
+    "species_name": "Aphelodoris varia",
+    "kingdom": "Animalia",
+    "phylum": "Mollusca",
+    "class": "Gastropoda",
+    "order": "Nudibranchia",
+    "family": "Dorididae",
+    "genus": "Aphelodoris"
+  },
+  "284": {
+    "category_id": 5313,
+    "species_name": "Pteraeolidia ianthina",
+    "kingdom": "Animalia",
+    "phylum": "Mollusca",
+    "class": "Gastropoda",
+    "order": "Nudibranchia",
+    "family": "Facelinidae",
+    "genus": "Pteraeolidia"
+  },
+  "285": {
+    "category_id": 5344,
+    "species_name": "Haplotrema vancouverense",
+    "kingdom": "Animalia",
+    "phylum": "Mollusca",
+    "class": "Gastropoda",
+    "order": "Stylommatophora",
+    "family": "Haplotrematidae",
+    "genus": "Haplotrema"
+  },
+  "286": {
+    "category_id": 5378,
+    "species_name": "Megastraea undosa",
+    "kingdom": "Animalia",
+    "phylum": "Mollusca",
+    "class": "Gastropoda",
+    "order": "Trochida",
+    "family": "Turbinidae",
+    "genus": "Megastraea"
+  },
+  "287": {
+    "category_id": 5409,
+    "species_name": "Flavopunctelia flaventior",
+    "kingdom": "Fungi",
+    "phylum": "Ascomycota",
+    "class": "Lecanoromycetes",
+    "order": "Lecanorales",
+    "family": "Parmeliaceae",
+    "genus": "Flavopunctelia"
+  },
+  "288": {
+    "category_id": 5413,
+    "species_name": "Letharia vulpina",
+    "kingdom": "Fungi",
+    "phylum": "Ascomycota",
+    "class": "Lecanoromycetes",
+    "order": "Lecanorales",
+    "family": "Parmeliaceae",
+    "genus": "Letharia"
+  },
+  "289": {
+    "category_id": 5425,
+    "species_name": "Ramalina menziesii",
+    "kingdom": "Fungi",
+    "phylum": "Ascomycota",
+    "class": "Lecanoromycetes",
+    "order": "Lecanorales",
+    "family": "Ramalinaceae",
+    "genus": "Ramalina"
+  },
+  "290": {
+    "category_id": 5442,
+    "species_name": "Xanthomendoza fallax",
+    "kingdom": "Fungi",
+    "phylum": "Ascomycota",
+    "class": "Lecanoromycetes",
+    "order": "Teloschistales",
+    "family": "Teloschistaceae",
+    "genus": "Xanthomendoza"
+  },
+  "291": {
+    "category_id": 5464,
+    "species_name": "Urnula craterium",
+    "kingdom": "Fungi",
+    "phylum": "Ascomycota",
+    "class": "Pezizomycetes",
+    "order": "Pezizales",
+    "family": "Sarcosomataceae",
+    "genus": "Urnula"
+  },
+  "292": {
+    "category_id": 5491,
+    "species_name": "Amanita fulva",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Agaricales",
+    "family": "Amanitaceae",
+    "genus": "Amanita"
+  },
+  "293": {
+    "category_id": 5514,
+    "species_name": "Laccaria amethystina",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Agaricales",
+    "family": "Hydnangiaceae",
+    "genus": "Laccaria"
+  },
+  "294": {
+    "category_id": 5539,
+    "species_name": "Mycena pura",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Agaricales",
+    "family": "Mycenaceae",
+    "genus": "Mycena"
+  },
+  "295": {
+    "category_id": 5559,
+    "species_name": "Volvopluteus gloiocephalus",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Agaricales",
+    "family": "Pluteaceae",
+    "genus": "Volvopluteus"
+  },
+  "296": {
+    "category_id": 5573,
+    "species_name": "Psathyrella candolleana",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Agaricales",
+    "family": "Psathyrellaceae",
+    "genus": "Psathyrella"
+  },
+  "297": {
+    "category_id": 5574,
+    "species_name": "Schizophyllum commune",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Agaricales",
+    "family": "Schizophyllaceae",
+    "genus": "Schizophyllum"
+  },
+  "298": {
+    "category_id": 5617,
+    "species_name": "Suillus luteus",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Boletales",
+    "family": "Suillaceae",
+    "genus": "Suillus"
+  },
+  "299": {
+    "category_id": 5635,
+    "species_name": "Inonotus obliquus",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Hymenochaetales",
+    "family": "Hymenochaetaceae",
+    "genus": "Inonotus"
+  },
+  "300": {
+    "category_id": 5663,
+    "species_name": "Phaeolus schweinitzii",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Agaricomycetes",
+    "order": "Polyporales",
+    "family": "Laetiporaceae",
+    "genus": "Phaeolus"
+  },
+  "301": {
+    "category_id": 5718,
+    "species_name": "Calocera viscosa",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Dacrymycetes",
+    "order": "Dacrymycetales",
+    "family": "Dacrymycetaceae",
+    "genus": "Calocera"
+  },
+  "302": {
+    "category_id": 5728,
+    "species_name": "Tremella mesenterica",
+    "kingdom": "Fungi",
+    "phylum": "Basidiomycota",
+    "class": "Tremellomycetes",
+    "order": "Tremellales",
+    "family": "Tremellaceae",
+    "genus": "Tremella"
+  },
+  "303": {
+    "category_id": 5753,
+    "species_name": "Neckera pennata",
+    "kingdom": "Plantae",
+    "phylum": "Bryophyta",
+    "class": "Bryopsida",
+    "order": "Hypnales",
+    "family": "Neckeraceae",
+    "genus": "Neckera"
+  },
+  "304": {
+    "category_id": 5794,
+    "species_name": "Arum italicum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Alismatales",
+    "family": "Araceae",
+    "genus": "Arum"
+  },
+  "305": {
+    "category_id": 5804,
+    "species_name": "Peltandra virginica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Alismatales",
+    "family": "Araceae",
+    "genus": "Peltandra"
+  },
+  "306": {
+    "category_id": 5820,
+    "species_name": "Triantha glutinosa",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Alismatales",
+    "family": "Tofieldiaceae",
+    "genus": "Triantha"
+  },
+  "307": {
+    "category_id": 5862,
+    "species_name": "Narcissus poeticus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Amaryllidaceae",
+    "genus": "Narcissus"
+  },
+  "308": {
+    "category_id": 5881,
+    "species_name": "Asparagus officinalis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Asparagaceae",
+    "genus": "Asparagus"
+  },
+  "309": {
+    "category_id": 5925,
+    "species_name": "Ruscus aculeatus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Asparagaceae",
+    "genus": "Ruscus"
+  },
+  "310": {
+    "category_id": 5930,
+    "species_name": "Triteleia hyacinthina",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Asparagaceae",
+    "genus": "Triteleia"
+  },
+  "311": {
+    "category_id": 5947,
+    "species_name": "Asphodelus fistulosus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Asphodelaceae",
+    "genus": "Asphodelus"
+  },
+  "312": {
+    "category_id": 5967,
+    "species_name": "Iris douglasiana",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Iridaceae",
+    "genus": "Iris"
+  },
+  "313": {
+    "category_id": 5974,
+    "species_name": "Iris sibirica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Iridaceae",
+    "genus": "Iris"
+  },
+  "314": {
+    "category_id": 5977,
+    "species_name": "Iris versicolor",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Iridaceae",
+    "genus": "Iris"
+  },
+  "315": {
+    "category_id": 6049,
+    "species_name": "Liparis loeselii",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "genus": "Liparis"
+  },
+  "316": {
+    "category_id": 6054,
+    "species_name": "Neottia nidus-avis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "genus": "Neottia"
+  },
+  "317": {
+    "category_id": 6065,
+    "species_name": "Orchis anthropophora",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "genus": "Orchis"
+  },
+  "318": {
+    "category_id": 6118,
+    "species_name": "Pontederia cordata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Commelinales",
+    "family": "Pontederiaceae",
+    "genus": "Pontederia"
+  },
+  "319": {
+    "category_id": 6126,
+    "species_name": "Gloriosa superba",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Liliales",
+    "family": "Colchicaceae",
+    "genus": "Gloriosa"
+  },
+  "320": {
+    "category_id": 6201,
+    "species_name": "Trillium luteum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Liliales",
+    "family": "Melanthiaceae",
+    "genus": "Trillium"
+  },
+  "321": {
+    "category_id": 6209,
+    "species_name": "Veratrum viride",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Liliales",
+    "family": "Melanthiaceae",
+    "genus": "Veratrum"
+  },
+  "322": {
+    "category_id": 6211,
+    "species_name": "Ripogonum scandens",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Liliales",
+    "family": "Ripogonaceae",
+    "genus": "Ripogonum"
+  },
+  "323": {
+    "category_id": 6216,
+    "species_name": "Smilax herbacea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Liliales",
+    "family": "Smilacaceae",
+    "genus": "Smilax"
+  },
+  "324": {
+    "category_id": 6224,
+    "species_name": "Pandanus tectorius",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Pandanales",
+    "family": "Pandanaceae",
+    "genus": "Pandanus"
+  },
+  "325": {
+    "category_id": 6227,
+    "species_name": "Tillandsia recurvata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Poales",
+    "family": "Bromeliaceae",
+    "genus": "Tillandsia"
+  },
+  "326": {
+    "category_id": 6252,
+    "species_name": "Carex magellanica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Poales",
+    "family": "Cyperaceae",
+    "genus": "Carex"
+  },
+  "327": {
+    "category_id": 6267,
+    "species_name": "Carex squarrosa",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Poales",
+    "family": "Cyperaceae",
+    "genus": "Carex"
+  },
+  "328": {
+    "category_id": 6304,
+    "species_name": "Juncus acutus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Poales",
+    "family": "Juncaceae",
+    "genus": "Juncus"
+  },
+  "329": {
+    "category_id": 6311,
+    "species_name": "Juncus torreyi",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Poales",
+    "family": "Juncaceae",
+    "genus": "Juncus"
+  },
+  "330": {
+    "category_id": 6396,
+    "species_name": "Microstegium vimineum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Poales",
+    "family": "Poaceae",
+    "genus": "Microstegium"
+  },
+  "331": {
+    "category_id": 6482,
+    "species_name": "Angelica capitellata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Apiaceae",
+    "genus": "Angelica"
+  },
+  "332": {
+    "category_id": 6484,
+    "species_name": "Anthriscus caucalis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Apiaceae",
+    "genus": "Anthriscus"
+  },
+  "333": {
+    "category_id": 6528,
+    "species_name": "Pimpinella saxifraga",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Apiaceae",
+    "genus": "Pimpinella"
+  },
+  "334": {
+    "category_id": 6537,
+    "species_name": "Scandix pecten-veneris",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Apiaceae",
+    "genus": "Scandix"
+  },
+  "335": {
+    "category_id": 6543,
+    "species_name": "Torilis japonica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Apiaceae",
+    "genus": "Torilis"
+  },
+  "336": {
+    "category_id": 6548,
+    "species_name": "Aralia elata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Araliaceae",
+    "genus": "Aralia"
+  },
+  "337": {
+    "category_id": 6570,
+    "species_name": "Schefflera digitata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Araliaceae",
+    "genus": "Schefflera"
+  },
+  "338": {
+    "category_id": 6572,
+    "species_name": "Griselinia littoralis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Griseliniaceae",
+    "genus": "Griselinia"
+  },
+  "339": {
+    "category_id": 6592,
+    "species_name": "Achyrachaena mollis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Achyrachaena"
+  },
+  "340": {
+    "category_id": 6596,
+    "species_name": "Adenophyllum porophylloides",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Adenophyllum"
+  },
+  "341": {
+    "category_id": 6615,
+    "species_name": "Antennaria neglecta",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Antennaria"
+  },
+  "342": {
+    "category_id": 6653,
+    "species_name": "Bellis perennis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Bellis"
+  },
+  "343": {
+    "category_id": 6658,
+    "species_name": "Bidens frondosa",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Bidens"
+  },
+  "344": {
+    "category_id": 6669,
+    "species_name": "Carduus acanthoides",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Carduus"
+  },
+  "345": {
+    "category_id": 6691,
+    "species_name": "Chaenactis glabriuscula",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Chaenactis"
+  },
+  "346": {
+    "category_id": 6735,
+    "species_name": "Cyanthillium cinereum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Cyanthillium"
+  },
+  "347": {
+    "category_id": 6745,
+    "species_name": "Dittrichia graveolens",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Dittrichia"
+  },
+  "348": {
+    "category_id": 6755,
+    "species_name": "Elephantopus tomentosus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Elephantopus"
+  },
+  "349": {
+    "category_id": 6790,
+    "species_name": "Eupatorium rotundifolium",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Eupatorium"
+  },
+  "350": {
+    "category_id": 6868,
+    "species_name": "Layia glandulosa",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Layia"
+  },
+  "351": {
+    "category_id": 6873,
+    "species_name": "Leptosyne maritima",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Leptosyne"
+  },
+  "352": {
+    "category_id": 6888,
+    "species_name": "Malacothrix saxatilis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Malacothrix"
+  },
+  "353": {
+    "category_id": 6912,
+    "species_name": "Ozothamnus leptophyllus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Ozothamnus"
+  },
+  "354": {
+    "category_id": 6916,
+    "species_name": "Packera obovata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Packera"
+  },
+  "355": {
+    "category_id": 6924,
+    "species_name": "Parthenium incanum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Parthenium"
+  },
+  "356": {
+    "category_id": 6930,
+    "species_name": "Petasites hybridus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Petasites"
+  },
+  "357": {
+    "category_id": 6932,
+    "species_name": "Peucephyllum schottii",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Peucephyllum"
+  },
+  "358": {
+    "category_id": 6939,
+    "species_name": "Pityopsis falcata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Pityopsis"
+  },
+  "359": {
+    "category_id": 7007,
+    "species_name": "Solidago speciosa",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Solidago"
+  },
+  "360": {
+    "category_id": 7019,
+    "species_name": "Symphyotrichum cordifolium",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Symphyotrichum"
+  },
+  "361": {
+    "category_id": 7041,
+    "species_name": "Tetraneuris linearifolia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Tetraneuris"
+  },
+  "362": {
+    "category_id": 7043,
+    "species_name": "Thelesperma filifolium",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Thelesperma"
+  },
+  "363": {
+    "category_id": 7062,
+    "species_name": "Verbesina encelioides",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Verbesina"
+  },
+  "364": {
+    "category_id": 7066,
+    "species_name": "Vernonia gigantea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Vernonia"
+  },
+  "365": {
+    "category_id": 7119,
+    "species_name": "Scaevola plumieri",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Goodeniaceae",
+    "genus": "Scaevola"
+  },
+  "366": {
+    "category_id": 7123,
+    "species_name": "Nephrophyllidium crista-galli",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Menyanthaceae",
+    "genus": "Nephrophyllidium"
+  },
+  "367": {
+    "category_id": 7144,
+    "species_name": "Eriodictyon crassifolium",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Boraginales",
+    "family": "Boraginaceae",
+    "genus": "Eriodictyon"
+  },
+  "368": {
+    "category_id": 7149,
+    "species_name": "Hackelia virginiana",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Boraginales",
+    "family": "Boraginaceae",
+    "genus": "Hackelia"
+  },
+  "369": {
+    "category_id": 7177,
+    "species_name": "Nemophila heterophylla",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Boraginales",
+    "family": "Boraginaceae",
+    "genus": "Nemophila"
+  },
+  "370": {
+    "category_id": 7179,
+    "species_name": "Nemophila menziesii",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Boraginales",
+    "family": "Boraginaceae",
+    "genus": "Nemophila"
+  },
+  "371": {
+    "category_id": 7238,
+    "species_name": "Cardamine nuttallii",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Brassicales",
+    "family": "Brassicaceae",
+    "genus": "Cardamine"
+  },
+  "372": {
+    "category_id": 7239,
+    "species_name": "Cardamine pratensis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Brassicales",
+    "family": "Brassicaceae",
+    "genus": "Cardamine"
+  },
+  "373": {
+    "category_id": 7244,
+    "species_name": "Descurainia sophia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Brassicales",
+    "family": "Brassicaceae",
+    "genus": "Descurainia"
+  },
+  "374": {
+    "category_id": 7260,
+    "species_name": "Lepidium latifolium",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Brassicales",
+    "family": "Brassicaceae",
+    "genus": "Lepidium"
+  },
+  "375": {
+    "category_id": 7350,
+    "species_name": "Cylindropuntia ganderi",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Cactaceae",
+    "genus": "Cylindropuntia"
+  },
+  "376": {
+    "category_id": 7359,
+    "species_name": "Echinocereus bakeri",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Cactaceae",
+    "genus": "Echinocereus"
+  },
+  "377": {
+    "category_id": 7397,
+    "species_name": "Opuntia cochenillifera",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Cactaceae",
+    "genus": "Opuntia"
+  },
+  "378": {
+    "category_id": 7428,
+    "species_name": "Dianthus carthusianorum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Caryophyllaceae",
+    "genus": "Dianthus"
+  },
+  "379": {
+    "category_id": 7433,
+    "species_name": "Herniaria glabra",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Caryophyllaceae",
+    "genus": "Herniaria"
+  },
+  "380": {
+    "category_id": 7454,
+    "species_name": "Silene latifolia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Caryophyllaceae",
+    "genus": "Silene"
+  },
+  "381": {
+    "category_id": 7461,
+    "species_name": "Spergula arvensis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Caryophyllaceae",
+    "genus": "Spergula"
+  },
+  "382": {
+    "category_id": 7491,
+    "species_name": "Claytonia perfoliata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Montiaceae",
+    "genus": "Claytonia"
+  },
+  "383": {
+    "category_id": 7508,
+    "species_name": "Phytolacca americana",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Phytolaccaceae",
+    "genus": "Phytolacca"
+  },
+  "384": {
+    "category_id": 7517,
+    "species_name": "Antigonon leptopus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Polygonaceae",
+    "genus": "Antigonon"
+  },
+  "385": {
+    "category_id": 7527,
+    "species_name": "Eriogonum fasciculatum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Polygonaceae",
+    "genus": "Eriogonum"
+  },
+  "386": {
+    "category_id": 7541,
+    "species_name": "Muehlenbeckia axillaris",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Polygonaceae",
+    "genus": "Muehlenbeckia"
+  },
+  "387": {
+    "category_id": 7573,
+    "species_name": "Simmondsia chinensis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Caryophyllales",
+    "family": "Simmondsiaceae",
+    "genus": "Simmondsia"
+  },
+  "388": {
+    "category_id": 7579,
+    "species_name": "Euonymus alatus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Celastrales",
+    "family": "Celastraceae",
+    "genus": "Euonymus"
+  },
+  "389": {
+    "category_id": 7618,
+    "species_name": "Staphylea trifolia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Crossosomatales",
+    "family": "Staphyleaceae",
+    "genus": "Staphylea"
+  },
+  "390": {
+    "category_id": 7651,
+    "species_name": "Lonicera periclymenum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Dipsacales",
+    "family": "Caprifoliaceae",
+    "genus": "Lonicera"
+  },
+  "391": {
+    "category_id": 7668,
+    "species_name": "Valeriana sitchensis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Dipsacales",
+    "family": "Caprifoliaceae",
+    "genus": "Valeriana"
+  },
+  "392": {
+    "category_id": 7711,
+    "species_name": "Arctostaphylos patula",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "genus": "Arctostaphylos"
+  },
+  "393": {
+    "category_id": 7744,
+    "species_name": "Gaultheria shallon",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "genus": "Gaultheria"
+  },
+  "394": {
+    "category_id": 7749,
+    "species_name": "Kalmia polifolia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "genus": "Kalmia"
+  },
+  "395": {
+    "category_id": 7752,
+    "species_name": "Leptecophylla tameiameiae",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "genus": "Leptecophylla"
+  },
+  "396": {
+    "category_id": 7784,
+    "species_name": "Rhododendron occidentale",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "genus": "Rhododendron"
+  },
+  "397": {
+    "category_id": 7787,
+    "species_name": "Sarcodes sanguinea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Ericaceae",
+    "genus": "Sarcodes"
+  },
+  "398": {
+    "category_id": 7811,
+    "species_name": "Gilia stellata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Polemoniaceae",
+    "genus": "Gilia"
+  },
+  "399": {
+    "category_id": 7886,
+    "species_name": "Symplocos tinctoria",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Symplocaceae",
+    "genus": "Symplocos"
+  },
+  "400": {
+    "category_id": 7953,
+    "species_name": "Dichrostachys cinerea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Dichrostachys"
+  },
+  "401": {
+    "category_id": 7956,
+    "species_name": "Erythrina herbacea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Erythrina"
+  },
+  "402": {
+    "category_id": 7962,
+    "species_name": "Genista tinctoria",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Genista"
+  },
+  "403": {
+    "category_id": 7973,
+    "species_name": "Hosackia gracilis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Hosackia"
+  },
+  "404": {
+    "category_id": 8004,
+    "species_name": "Lupinus hirsutissimus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Lupinus"
+  },
+  "405": {
+    "category_id": 8005,
+    "species_name": "Lupinus lepidus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Lupinus"
+  },
+  "406": {
+    "category_id": 8085,
+    "species_name": "Trifolium angustifolium",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Trifolium"
+  },
+  "407": {
+    "category_id": 8179,
+    "species_name": "Quercus engelmannii",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fagales",
+    "family": "Fagaceae",
+    "genus": "Quercus"
+  },
+  "408": {
+    "category_id": 8201,
+    "species_name": "Quercus rubra",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fagales",
+    "family": "Fagaceae",
+    "genus": "Quercus"
+  },
+  "409": {
+    "category_id": 8238,
+    "species_name": "Asclepias curassavica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Apocynaceae",
+    "genus": "Asclepias"
+  },
+  "410": {
+    "category_id": 8279,
+    "species_name": "Parsonsia heterophylla",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Apocynaceae",
+    "genus": "Parsonsia"
+  },
+  "411": {
+    "category_id": 8280,
+    "species_name": "Plumeria rubra",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Apocynaceae",
+    "genus": "Plumeria"
+  },
+  "412": {
+    "category_id": 8288,
+    "species_name": "Blackstonia perfoliata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Gentianaceae",
+    "genus": "Blackstonia"
+  },
+  "413": {
+    "category_id": 8308,
+    "species_name": "Gentianella amarella",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Gentianaceae",
+    "genus": "Gentianella"
+  },
+  "414": {
+    "category_id": 8317,
+    "species_name": "Geniostoma ligustrifolium",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Loganiaceae",
+    "genus": "Geniostoma"
+  },
+  "415": {
+    "category_id": 8320,
+    "species_name": "Cephalanthus occidentalis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Rubiaceae",
+    "genus": "Cephalanthus"
+  },
+  "416": {
+    "category_id": 8346,
+    "species_name": "Hamelia patens",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Rubiaceae",
+    "genus": "Hamelia"
+  },
+  "417": {
+    "category_id": 8348,
+    "species_name": "Houstonia caerulea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Rubiaceae",
+    "genus": "Houstonia"
+  },
+  "418": {
+    "category_id": 8375,
+    "species_name": "Geranium maculatum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Geraniales",
+    "family": "Geraniaceae",
+    "genus": "Geranium"
+  },
+  "419": {
+    "category_id": 8379,
+    "species_name": "Geranium pratense",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Geraniales",
+    "family": "Geraniaceae",
+    "genus": "Geranium"
+  },
+  "420": {
+    "category_id": 8423,
+    "species_name": "Agastache foeniculum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Lamiaceae",
+    "genus": "Agastache"
+  },
+  "421": {
+    "category_id": 8445,
+    "species_name": "Lamium album",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Lamiaceae",
+    "genus": "Lamium"
+  },
+  "422": {
+    "category_id": 8479,
+    "species_name": "Prunella vulgaris",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Lamiaceae",
+    "genus": "Prunella"
+  },
+  "423": {
+    "category_id": 8518,
+    "species_name": "Teucrium scorodonia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Lamiaceae",
+    "genus": "Teucrium"
+  },
+  "424": {
+    "category_id": 8565,
+    "species_name": "Bellardia trixago",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Orobanchaceae",
+    "genus": "Bellardia"
+  },
+  "425": {
+    "category_id": 8645,
+    "species_name": "Keckiella antirrhinoides",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Plantaginaceae",
+    "genus": "Keckiella"
+  },
+  "426": {
+    "category_id": 8666,
+    "species_name": "Penstemon hirsutus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Plantaginaceae",
+    "genus": "Penstemon"
+  },
+  "427": {
+    "category_id": 8669,
+    "species_name": "Penstemon procerus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Plantaginaceae",
+    "genus": "Penstemon"
+  },
+  "428": {
+    "category_id": 8689,
+    "species_name": "Veronica arvensis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Plantaginaceae",
+    "genus": "Veronica"
+  },
+  "429": {
+    "category_id": 8701,
+    "species_name": "Veronica scutellata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Plantaginaceae",
+    "genus": "Veronica"
+  },
+  "430": {
+    "category_id": 8727,
+    "species_name": "Lantana camara",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Verbenaceae",
+    "genus": "Lantana"
+  },
+  "431": {
+    "category_id": 8751,
+    "species_name": "Lindera benzoin",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Laurales",
+    "family": "Lauraceae",
+    "genus": "Lindera"
+  },
+  "432": {
+    "category_id": 8785,
+    "species_name": "Euphorbia corollata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Euphorbiaceae",
+    "genus": "Euphorbia"
+  },
+  "433": {
+    "category_id": 8786,
+    "species_name": "Euphorbia cyathophora",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Euphorbiaceae",
+    "genus": "Euphorbia"
+  },
+  "434": {
+    "category_id": 8797,
+    "species_name": "Euphorbia marginata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Euphorbiaceae",
+    "genus": "Euphorbia"
+  },
+  "435": {
+    "category_id": 8808,
+    "species_name": "Euphorbia prostrata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Euphorbiaceae",
+    "genus": "Euphorbia"
+  },
+  "436": {
+    "category_id": 8821,
+    "species_name": "Ricinus communis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Euphorbiaceae",
+    "genus": "Ricinus"
+  },
+  "437": {
+    "category_id": 8830,
+    "species_name": "Hypericum hypericoides",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Hypericaceae",
+    "genus": "Hypericum"
+  },
+  "438": {
+    "category_id": 8834,
+    "species_name": "Hypericum perforatum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Hypericaceae",
+    "genus": "Hypericum"
+  },
+  "439": {
+    "category_id": 8835,
+    "species_name": "Hypericum punctatum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Hypericaceae",
+    "genus": "Hypericum"
+  },
+  "440": {
+    "category_id": 8837,
+    "species_name": "Linum bienne",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Linaceae",
+    "genus": "Linum"
+  },
+  "441": {
+    "category_id": 8856,
+    "species_name": "Populus alba",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Salicaceae",
+    "genus": "Populus"
+  },
+  "442": {
+    "category_id": 8883,
+    "species_name": "Melicytus ramiflorus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Violaceae",
+    "genus": "Melicytus"
+  },
+  "443": {
+    "category_id": 8900,
+    "species_name": "Viola ocellata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malpighiales",
+    "family": "Violaceae",
+    "genus": "Viola"
+  },
+  "444": {
+    "category_id": 8928,
+    "species_name": "Hudsonia tomentosa",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malvales",
+    "family": "Cistaceae",
+    "genus": "Hudsonia"
+  },
+  "445": {
+    "category_id": 8935,
+    "species_name": "Callirhoe involucrata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malvales",
+    "family": "Malvaceae",
+    "genus": "Callirhoe"
+  },
+  "446": {
+    "category_id": 8938,
+    "species_name": "Entelea arborescens",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malvales",
+    "family": "Malvaceae",
+    "genus": "Entelea"
+  },
+  "447": {
+    "category_id": 8977,
+    "species_name": "Sidalcea sparsifolia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malvales",
+    "family": "Malvaceae",
+    "genus": "Sidalcea"
+  },
+  "448": {
+    "category_id": 9007,
+    "species_name": "Rhexia alifanus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Melastomataceae",
+    "genus": "Rhexia"
+  },
+  "449": {
+    "category_id": 9016,
+    "species_name": "Metrosideros excelsa",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Myrtaceae",
+    "genus": "Metrosideros"
+  },
+  "450": {
+    "category_id": 9038,
+    "species_name": "Clarkia rubicunda",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Onagraceae",
+    "genus": "Clarkia"
+  },
+  "451": {
+    "category_id": 9044,
+    "species_name": "Epilobium montanum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Onagraceae",
+    "genus": "Epilobium"
+  },
+  "452": {
+    "category_id": 9052,
+    "species_name": "Ludwigia octovalvis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Onagraceae",
+    "genus": "Ludwigia"
+  },
+  "453": {
+    "category_id": 9064,
+    "species_name": "Oenothera glaucifolia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Onagraceae",
+    "genus": "Oenothera"
+  },
+  "454": {
+    "category_id": 9075,
+    "species_name": "Taraxia ovata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Onagraceae",
+    "genus": "Taraxia"
+  },
+  "455": {
+    "category_id": 9083,
+    "species_name": "Nymphaea alba",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Nymphaeales",
+    "family": "Nymphaeaceae",
+    "genus": "Nymphaea"
+  },
+  "456": {
+    "category_id": 9086,
+    "species_name": "Nymphaea odorata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Nymphaeales",
+    "family": "Nymphaeaceae",
+    "genus": "Nymphaea"
+  },
+  "457": {
+    "category_id": 9105,
+    "species_name": "Oxalis purpurea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Oxalidales",
+    "family": "Oxalidaceae",
+    "genus": "Oxalis"
+  },
+  "458": {
+    "category_id": 9125,
+    "species_name": "Banksia marginata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Proteales",
+    "family": "Proteaceae",
+    "genus": "Banksia"
+  },
+  "459": {
+    "category_id": 9173,
+    "species_name": "Ehrendorferia chrysantha",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ranunculales",
+    "family": "Papaveraceae",
+    "genus": "Ehrendorferia"
+  },
+  "460": {
+    "category_id": 9189,
+    "species_name": "Pseudofumaria lutea",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ranunculales",
+    "family": "Papaveraceae",
+    "genus": "Pseudofumaria"
+  },
+  "461": {
+    "category_id": 9195,
+    "species_name": "Aconitum lycoctonum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ranunculales",
+    "family": "Ranunculaceae",
+    "genus": "Aconitum"
+  },
+  "462": {
+    "category_id": 9197,
+    "species_name": "Aconitum septentrionale",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ranunculales",
+    "family": "Ranunculaceae",
+    "genus": "Aconitum"
+  },
+  "463": {
+    "category_id": 9224,
+    "species_name": "Ceratocephala testiculata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ranunculales",
+    "family": "Ranunculaceae",
+    "genus": "Ceratocephala"
+  },
+  "464": {
+    "category_id": 9260,
+    "species_name": "Ranunculus acris",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ranunculales",
+    "family": "Ranunculaceae",
+    "genus": "Ranunculus"
+  },
+  "465": {
+    "category_id": 9292,
+    "species_name": "Celtis reticulata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Cannabaceae",
+    "genus": "Celtis"
+  },
+  "466": {
+    "category_id": 9295,
+    "species_name": "Trema orientalis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Cannabaceae",
+    "genus": "Trema"
+  },
+  "467": {
+    "category_id": 9324,
+    "species_name": "Ceanothus integerrimus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rhamnaceae",
+    "genus": "Ceanothus"
+  },
+  "468": {
+    "category_id": 9333,
+    "species_name": "Ceanothus verrucosus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rhamnaceae",
+    "genus": "Ceanothus"
+  },
+  "469": {
+    "category_id": 9355,
+    "species_name": "Agrimonia gryposepala",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "genus": "Agrimonia"
+  },
+  "470": {
+    "category_id": 9440,
+    "species_name": "Rhaphiolepis indica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "genus": "Rhaphiolepis"
+  },
+  "471": {
+    "category_id": 9446,
+    "species_name": "Rosa canina",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "genus": "Rosa"
+  },
+  "472": {
+    "category_id": 9459,
+    "species_name": "Rubus armeniacus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "genus": "Rubus"
+  },
+  "473": {
+    "category_id": 9485,
+    "species_name": "Sibbaldia procumbens",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "genus": "Sibbaldia"
+  },
+  "474": {
+    "category_id": 9489,
+    "species_name": "Sorbus aucuparia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "genus": "Sorbus"
+  },
+  "475": {
+    "category_id": 9502,
+    "species_name": "Ulmus laevis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Ulmaceae",
+    "genus": "Ulmus"
+  },
+  "476": {
+    "category_id": 9512,
+    "species_name": "Parietaria pensylvanica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Urticaceae",
+    "genus": "Parietaria"
+  },
+  "477": {
+    "category_id": 9543,
+    "species_name": "Schinus molle",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Sapindales",
+    "family": "Anacardiaceae",
+    "genus": "Schinus"
+  },
+  "478": {
+    "category_id": 9560,
+    "species_name": "Thamnosma montana",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Sapindales",
+    "family": "Rutaceae",
+    "genus": "Thamnosma"
+  },
+  "479": {
+    "category_id": 9562,
+    "species_name": "Zanthoxylum clava-herculis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Sapindales",
+    "family": "Rutaceae",
+    "genus": "Zanthoxylum"
+  },
+  "480": {
+    "category_id": 9571,
+    "species_name": "Acer macrophyllum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Sapindales",
+    "family": "Sapindaceae",
+    "genus": "Acer"
+  },
+  "481": {
+    "category_id": 9577,
+    "species_name": "Acer pseudoplatanus",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Sapindales",
+    "family": "Sapindaceae",
+    "genus": "Acer"
+  },
+  "482": {
+    "category_id": 9638,
+    "species_name": "Ribes speciosum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Saxifragales",
+    "family": "Grossulariaceae",
+    "genus": "Ribes"
+  },
+  "483": {
+    "category_id": 9641,
+    "species_name": "Haloragis erecta",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Saxifragales",
+    "family": "Haloragaceae",
+    "genus": "Haloragis"
+  },
+  "484": {
+    "category_id": 9654,
+    "species_name": "Heuchera richardsonii",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Saxifragales",
+    "family": "Saxifragaceae",
+    "genus": "Heuchera"
+  },
+  "485": {
+    "category_id": 9674,
+    "species_name": "Tolmiea menziesii",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Saxifragales",
+    "family": "Saxifragaceae",
+    "genus": "Tolmiea"
+  },
+  "486": {
+    "category_id": 9740,
+    "species_name": "Solanum emulans",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Solanales",
+    "family": "Solanaceae",
+    "genus": "Solanum"
+  },
+  "487": {
+    "category_id": 9749,
+    "species_name": "Solanum umbelliferum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Solanales",
+    "family": "Solanaceae",
+    "genus": "Solanum"
+  },
+  "488": {
+    "category_id": 9763,
+    "species_name": "Vitis riparia",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Vitales",
+    "family": "Vitaceae",
+    "genus": "Vitis"
+  },
+  "489": {
+    "category_id": 9771,
+    "species_name": "Kallstroemia grandiflora",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Zygophyllales",
+    "family": "Zygophyllaceae",
+    "genus": "Kallstroemia"
+  },
+  "490": {
+    "category_id": 9774,
+    "species_name": "Agathis australis",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Pinopsida",
+    "order": "Pinales",
+    "family": "Araucariaceae",
+    "genus": "Agathis"
+  },
+  "491": {
+    "category_id": 9813,
+    "species_name": "Picea rubens",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Pinopsida",
+    "order": "Pinales",
+    "family": "Pinaceae",
+    "genus": "Picea"
+  },
+  "492": {
+    "category_id": 9863,
+    "species_name": "Dicksonia antarctica",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Cyatheales",
+    "family": "Dicksoniaceae",
+    "genus": "Dicksonia"
+  },
+  "493": {
+    "category_id": 9891,
+    "species_name": "Asplenium appendiculatum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Polypodiales",
+    "family": "Aspleniaceae",
+    "genus": "Asplenium"
+  },
+  "494": {
+    "category_id": 9909,
+    "species_name": "Athyrium filix-femina",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Polypodiales",
+    "family": "Athyriaceae",
+    "genus": "Athyrium"
+  },
+  "495": {
+    "category_id": 9932,
+    "species_name": "Pteridium aquilinum",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Polypodiales",
+    "family": "Dennstaedtiaceae",
+    "genus": "Pteridium"
+  },
+  "496": {
+    "category_id": 9938,
+    "species_name": "Dryopteris carthusiana",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Polypodiales",
+    "family": "Dryopteridaceae",
+    "genus": "Dryopteris"
+  },
+  "497": {
+    "category_id": 9939,
+    "species_name": "Dryopteris cristata",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Polypodiales",
+    "family": "Dryopteridaceae",
+    "genus": "Dryopteris"
+  },
+  "498": {
+    "category_id": 9977,
+    "species_name": "Myriopteris parryi",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Polypodiales",
+    "family": "Pteridaceae",
+    "genus": "Myriopteris"
+  },
+  "499": {
+    "category_id": 9980,
+    "species_name": "Pellaea glabella",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Polypodiopsida",
+    "order": "Polypodiales",
+    "family": "Pteridaceae",
+    "genus": "Pellaea"
+  }
+}
