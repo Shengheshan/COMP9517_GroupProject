@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 
 from src.data.dataset import INatDataset
-from src.models.resnet18_scratch import build_resnet18_scratch
+from models.resnet18_scratch import build_resnet18_scratch
 
 
 def train_one_epoch(
