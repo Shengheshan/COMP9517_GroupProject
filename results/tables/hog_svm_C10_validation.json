@@ -1,0 +1,47 @@
+{
+  "experiment_name": "hog_svm_C10",
+  "num_classes": 500,
+  "num_train_images": 20000,
+  "num_validation_images": 5000,
+  "feature_dimension": 1764,
+  "features": {
+    "hog": {
+      "image_size": [
+        128,
+        128
+      ],
+      "orientations": 9,
+      "pixels_per_cell": [
+        16,
+        16
+      ],
+      "cells_per_block": [
+        2,
+        2
+      ],
+      "block_norm": "L2-Hys",
+      "transform_sqrt": true
+    },
+    "color": null,
+    "l2_normalize": false
+  },
+  "classifier": {
+    "standardize": false,
+    "dual": true,
+    "C": 10.0,
+    "max_iter": 3000,
+    "tol": 0.0001,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbose": 5
+  },
+  "training_seconds": 300.499,
+  "validation_inference_seconds": 0.81,
+  "validation_metrics": {
+    "top1_accuracy": 0.0132,
+    "top5_accuracy": 0.0462,
+    "macro_precision": 0.014883798723251055,
+    "macro_recall": 0.0132,
+    "macro_f1": 0.013179952186529113
+  }
+}
