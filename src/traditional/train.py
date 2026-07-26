@@ -43,7 +43,7 @@ def load_features(features_path: Path) -> dict:
 def resolve_worker_count(
     requested: int,
     features: np.ndarray,
-    memory_fraction: float = 0.5,
+    memory_fraction: float = 0.35,
 ) -> int:
     cpu_count = os.cpu_count() or 1
 
