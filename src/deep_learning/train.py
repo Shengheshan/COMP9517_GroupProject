@@ -1,8 +1,11 @@
-# Member 4: Transfer learning training pipeline
+# Member 4: Aligned transfer learning training pipeline
 # This file trains and validates ImageNet-pretrained ResNet-18 using:
 # 1. Frozen backbone with only the final classification layer trained
 # 2. Full-network fine-tuning
+# The aligned experiments use the shared dataset interface and transforms.
+
 import argparse
+import json
 import random
 import time
 from pathlib import Path
@@ -43,16 +46,8 @@ def create_transforms():
     std = weights.transforms().std
 
     train_transform = transforms.Compose([
-        transforms.RandomResizedCrop(
-            224,
-            scale=(0.7, 1.0),
-        ),
+        transforms.RandomResizedCrop(224),
         transforms.RandomHorizontalFlip(),
-        transforms.ColorJitter(
-            brightness=0.2,
-            contrast=0.2,
-            saturation=0.2,
-        ),
         transforms.ToTensor(),
         transforms.Normalize(mean=mean, std=std),
     ])
@@ -124,13 +119,18 @@ def train_one_epoch(
     total_correct = 0
     total_samples = 0
 
-    progress = tqdm(loader, desc="Training", leave=False)
+    progress = tqdm(
+        loader,
+        desc="Training",
+        leave=False,
+    )
 
     for images, labels in progress:
         images = images.to(
             device,
             non_blocking=True,
         )
+
         labels = labels.to(
             device,
             non_blocking=True,
@@ -151,12 +151,17 @@ def train_one_epoch(
 
         predictions = outputs.argmax(dim=1)
 
-        batch_size = labels.size(0)
-        total_loss += loss.item() * batch_size
+        current_batch_size = labels.size(0)
+
+        total_loss += (
+            loss.item() * current_batch_size
+        )
+
         total_correct += (
             predictions == labels
         ).sum().item()
-        total_samples += batch_size
+
+        total_samples += current_batch_size
 
         progress.set_postfix(
             loss=f"{loss.item():.4f}"
@@ -196,6 +201,7 @@ def validate(
             device,
             non_blocking=True,
         )
+
         labels = labels.to(
             device,
             non_blocking=True,
@@ -216,9 +222,13 @@ def validate(
 
         top1_predictions = top5_predictions[:, 0]
 
-        batch_size = labels.size(0)
-        total_loss += loss.item() * batch_size
-        total_samples += batch_size
+        current_batch_size = labels.size(0)
+
+        total_loss += (
+            loss.item() * current_batch_size
+        )
+
+        total_samples += current_batch_size
 
         top1_correct += (
             top1_predictions == labels
@@ -231,6 +241,7 @@ def validate(
         all_labels.extend(
             labels.cpu().tolist()
         )
+
         all_predictions.extend(
             top1_predictions.cpu().tolist()
         )
@@ -314,7 +325,7 @@ def parse_arguments():
     parser.add_argument(
         "--batch-size",
         type=int,
-        default=64,
+        default=32,
     )
 
     parser.add_argument(
@@ -361,7 +372,9 @@ def main():
             args.learning_rate = 1e-4
 
     device = torch.device(
-        "cuda" if torch.cuda.is_available() else "cpu"
+        "cuda"
+        if torch.cuda.is_available()
+        else "cpu"
     )
 
     print(f"Mode: {args.mode}")
@@ -378,12 +391,18 @@ def main():
     print(f"Epochs: {args.epochs}")
     print(f"Seed: {args.seed}")
 
-    train_loader, validation_loader = create_loaders(args)
+    train_loader, validation_loader = create_loaders(
+        args
+    )
 
-    print(f"Training images: {len(train_loader.dataset)}")
     print(
-        "Validation images:",
-        len(validation_loader.dataset),
+        f"Training images: "
+        f"{len(train_loader.dataset)}"
+    )
+
+    print(
+        f"Validation images: "
+        f"{len(validation_loader.dataset)}"
     )
 
     model = create_resnet18(
@@ -391,7 +410,9 @@ def main():
         mode=args.mode,
     ).to(device)
 
-    trainable_parameters = get_trainable_parameters(model)
+    trainable_parameters = get_trainable_parameters(
+        model
+    )
 
     trainable_count = sum(
         parameter.numel()
@@ -403,8 +424,15 @@ def main():
         for parameter in model.parameters()
     )
 
-    print(f"Trainable parameters: {trainable_count:,}")
-    print(f"Total parameters: {total_count:,}")
+    print(
+        f"Trainable parameters: "
+        f"{trainable_count:,}"
+    )
+
+    print(
+        f"Total parameters: "
+        f"{total_count:,}"
+    )
 
     criterion = nn.CrossEntropyLoss()
 
@@ -433,12 +461,15 @@ def main():
         parents=True,
         exist_ok=True,
     )
+
     log_directory.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    experiment_name = f"resnet18_{args.mode}"
+    experiment_name = (
+        f"resnet18_{args.mode}_aligned"
+    )
 
     checkpoint_path = (
         model_directory
@@ -450,7 +481,13 @@ def main():
         / f"{experiment_name}_history.csv"
     )
 
+    summary_path = (
+        log_directory
+        / f"{experiment_name}_summary.json"
+    )
+
     best_macro_f1 = -1.0
+    best_epoch = 0
     epochs_without_improvement = 0
     history = []
 
@@ -481,7 +518,10 @@ def main():
             device=device,
         )
 
-        epoch_time = time.perf_counter() - epoch_start
+        epoch_time = (
+            time.perf_counter() - epoch_start
+        )
+
         current_lr = optimizer.param_groups[0]["lr"]
 
         scheduler.step(validation_macro_f1)
@@ -499,6 +539,7 @@ def main():
         }
 
         history.append(epoch_results)
+
         pd.DataFrame(history).to_csv(
             history_path,
             index=False,
@@ -511,12 +552,14 @@ def main():
             f"val loss {validation_loss:.4f} | "
             f"val top1 {validation_top1:.4f} | "
             f"val top5 {validation_top5:.4f} | "
-            f"val macro-F1 {validation_macro_f1:.4f} | "
+            f"val macro-F1 "
+            f"{validation_macro_f1:.4f} | "
             f"time {epoch_time:.1f}s"
         )
 
         if validation_macro_f1 > best_macro_f1:
             best_macro_f1 = validation_macro_f1
+            best_epoch = epoch
             epochs_without_improvement = 0
 
             save_checkpoint(
@@ -551,13 +594,59 @@ def main():
         - total_training_start
     )
 
-    print(f"Best validation Macro-F1: {best_macro_f1:.4f}")
+    summary = {
+        "experiment": experiment_name,
+        "mode": args.mode,
+        "best_epoch": best_epoch,
+        "best_validation_macro_f1": best_macro_f1,
+        "total_training_time_seconds": (
+            total_training_time
+        ),
+        "completed_epochs": len(history),
+        "batch_size": args.batch_size,
+        "learning_rate": args.learning_rate,
+        "weight_decay": args.weight_decay,
+        "seed": args.seed,
+        "best_checkpoint": str(checkpoint_path),
+    }
+
+    with open(
+        summary_path,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            summary,
+            file,
+            indent=4,
+        )
+
+    print(
+        f"Best validation Macro-F1: "
+        f"{best_macro_f1:.4f}"
+    )
+
+    print(f"Best epoch: {best_epoch}")
+
     print(
         f"Total training time: "
         f"{total_training_time:.1f} seconds"
     )
-    print(f"History saved to: {history_path}")
-    print(f"Best model saved to: {checkpoint_path}")
+
+    print(
+        f"History saved to: "
+        f"{history_path}"
+    )
+
+    print(
+        f"Summary saved to: "
+        f"{summary_path}"
+    )
+
+    print(
+        f"Best model saved to: "
+        f"{checkpoint_path}"
+    )
 
 
 if __name__ == "__main__":

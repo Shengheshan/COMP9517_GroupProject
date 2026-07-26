@@ -1,6 +1,6 @@
-# Member 4: Transfer learning evaluation and prediction export
-# This file evaluates the trained transfer-learning models on the final test set
-# and saves predictions in the common project CSV format.
+# Member 4: Aligned transfer learning evaluation and prediction export
+# This file evaluates the aligned ImageNet-pretrained ResNet-18 models
+# on the final test set and saves predictions in the shared CSV format.
 
 import argparse
 import json
@@ -24,25 +24,44 @@ def create_evaluation_transform():
     mean = weights.transforms().mean
     std = weights.transforms().std
 
-    return transforms.Compose([
+    evaluation_transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
         transforms.ToTensor(),
         transforms.Normalize(mean=mean, std=std),
     ])
 
+    return evaluation_transform
+
 
 @torch.no_grad()
-def run_inference(model, loader, dataframe, device):
+def run_inference(
+    model,
+    loader,
+    dataframe,
+    device,
+):
     model.eval()
 
     prediction_rows = []
     total_inference_time = 0.0
     current_index = 0
 
-    for images, labels in tqdm(loader, desc="Testing"):
-        images = images.to(device, non_blocking=True)
-        labels = labels.to(device, non_blocking=True)
+    progress = tqdm(
+        loader,
+        desc="Testing",
+    )
+
+    for images, labels in progress:
+        images = images.to(
+            device,
+            non_blocking=True,
+        )
+
+        labels = labels.to(
+            device,
+            non_blocking=True,
+        )
 
         if device.type == "cuda":
             torch.cuda.synchronize()
@@ -54,12 +73,17 @@ def run_inference(model, loader, dataframe, device):
             enabled=device.type == "cuda",
         ):
             logits = model(images)
-            probabilities = torch.softmax(logits, dim=1)
+            probabilities = torch.softmax(
+                logits,
+                dim=1,
+            )
 
         if device.type == "cuda":
             torch.cuda.synchronize()
 
-        total_inference_time += time.perf_counter() - start_time
+        total_inference_time += (
+            time.perf_counter() - start_time
+        )
 
         top5_scores, top5_labels = torch.topk(
             probabilities,
@@ -67,18 +91,20 @@ def run_inference(model, loader, dataframe, device):
             dim=1,
         )
 
-        batch_size = labels.size(0)
+        current_batch_size = labels.size(0)
 
         labels_cpu = labels.cpu().tolist()
         top5_labels_cpu = top5_labels.cpu().tolist()
         top5_scores_cpu = top5_scores.cpu().tolist()
 
-        for batch_index in range(batch_size):
+        for batch_index in range(current_batch_size):
             row = dataframe.iloc[current_index]
 
             prediction_rows.append({
                 "relative_path": row["relative_path"],
-                "true_label": int(labels_cpu[batch_index]),
+                "true_label": int(
+                    labels_cpu[batch_index]
+                ),
                 "predicted_label": int(
                     top5_labels_cpu[batch_index][0]
                 ),
@@ -117,7 +143,7 @@ def parse_arguments():
     parser.add_argument(
         "--batch-size",
         type=int,
-        default=64,
+        default=32,
     )
 
     parser.add_argument(
@@ -139,18 +165,27 @@ def main():
     args = parse_arguments()
 
     device = torch.device(
-        "cuda" if torch.cuda.is_available() else "cpu"
+        "cuda"
+        if torch.cuda.is_available()
+        else "cpu"
     )
 
-    experiment_name = f"resnet18_{args.mode}"
+    experiment_name = (
+        f"resnet18_{args.mode}_aligned"
+    )
 
     checkpoint_path = (
         Path("models")
         / f"{experiment_name}_best.pth"
     )
 
-    output_directory = Path("results/predictions")
-    timing_directory = Path("results/evaluation")
+    output_directory = Path(
+        "results/predictions"
+    )
+
+    timing_directory = Path(
+        "results/evaluation"
+    )
 
     output_directory.mkdir(
         parents=True,
@@ -172,7 +207,14 @@ def main():
         / f"{experiment_name}_timing.json"
     )
 
-    test_dataframe = pd.read_csv(args.test_csv)
+    if not checkpoint_path.exists():
+        raise FileNotFoundError(
+            f"Checkpoint not found: {checkpoint_path}"
+        )
+
+    test_dataframe = pd.read_csv(
+        args.test_csv
+    )
 
     test_dataset = INatDataset(
         csv_path=args.test_csv,
@@ -209,38 +251,84 @@ def main():
     print(f"Experiment: {experiment_name}")
     print(f"Checkpoint: {checkpoint_path}")
     print(f"Device: {device}")
-    print(f"Test images: {len(test_dataset)}")
+
+    if device.type == "cuda":
+        print(
+            "GPU:",
+            torch.cuda.get_device_name(0),
+        )
+
+    print(
+        f"Test images: {len(test_dataset)}"
+    )
+
     print(
         "Best validation Macro-F1:",
-        checkpoint["metrics"]["validation_macro_f1"],
+        checkpoint["metrics"][
+            "validation_macro_f1"
+        ],
     )
 
-    prediction_rows, total_inference_time = run_inference(
-        model=model,
-        loader=test_loader,
-        dataframe=test_dataframe,
-        device=device,
+    print(
+        "Best epoch:",
+        checkpoint["epoch"],
     )
 
-    pd.DataFrame(prediction_rows).to_csv(
+    prediction_rows, total_inference_time = (
+        run_inference(
+            model=model,
+            loader=test_loader,
+            dataframe=test_dataframe,
+            device=device,
+        )
+    )
+
+    prediction_dataframe = pd.DataFrame(
+        prediction_rows
+    )
+
+    prediction_dataframe.to_csv(
         output_path,
         index=False,
     )
 
     number_of_images = len(test_dataset)
 
+    average_inference_time = (
+        total_inference_time
+        / number_of_images
+    )
+
+    images_per_second = (
+        number_of_images
+        / total_inference_time
+    )
+
     timing_results = {
         "experiment": experiment_name,
+        "mode": args.mode,
         "device": str(device),
+        "gpu": (
+            torch.cuda.get_device_name(0)
+            if device.type == "cuda"
+            else None
+        ),
         "number_of_images": number_of_images,
-        "total_inference_time_seconds": total_inference_time,
-        "average_inference_time_seconds_per_image": (
-            total_inference_time / number_of_images
-        ),
-        "images_per_second": (
-            number_of_images / total_inference_time
-        ),
         "batch_size": args.batch_size,
+        "total_gpu_forward_time_seconds": (
+            total_inference_time
+        ),
+        "average_gpu_forward_time_seconds_per_image": (
+            average_inference_time
+        ),
+        "images_per_second": images_per_second,
+        "checkpoint": str(checkpoint_path),
+        "best_epoch": checkpoint["epoch"],
+        "best_validation_macro_f1": (
+            checkpoint["metrics"][
+                "validation_macro_f1"
+            ]
+        ),
     }
 
     with open(
@@ -254,20 +342,30 @@ def main():
             indent=4,
         )
 
-    print(f"Predictions saved to: {output_path}")
     print(
-        f"Total inference time: "
+        f"Predictions saved to: "
+        f"{output_path}"
+    )
+
+    print(
+        f"Total GPU forward time: "
         f"{total_inference_time:.4f} seconds"
     )
+
     print(
-        f"Average inference time per image: "
-        f"{total_inference_time / number_of_images:.6f} seconds"
+        f"Average GPU forward time per image: "
+        f"{average_inference_time:.6f} seconds"
     )
+
     print(
         f"Images per second: "
-        f"{number_of_images / total_inference_time:.2f}"
+        f"{images_per_second:.2f}"
     )
-    print(f"Timing saved to: {timing_path}")
+
+    print(
+        f"Timing saved to: "
+        f"{timing_path}"
+    )
 
 
 if __name__ == "__main__":

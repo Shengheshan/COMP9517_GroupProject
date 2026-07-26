@@ -1,0 +1,13 @@
+{
+    "experiment": "resnet18_finetune_aligned",
+    "mode": "finetune",
+    "best_epoch": 36,
+    "best_validation_macro_f1": 0.6886761830357416,
+    "total_training_time_seconds": 962.5945752999996,
+    "completed_epochs": 40,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "seed": 42,
+    "best_checkpoint": "models\\resnet18_finetune_aligned_best.pth"
+}
