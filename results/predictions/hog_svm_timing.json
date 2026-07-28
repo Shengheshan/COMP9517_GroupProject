@@ -1,0 +1,7 @@
+{
+  "model": "results/models/color_C0.3.joblib",
+  "split": "test",
+  "num_images": 5000,
+  "classification_seconds": 0.941,
+  "classification_seconds_per_image": 0.000188
+}

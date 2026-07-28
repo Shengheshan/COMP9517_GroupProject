@@ -1,0 +1,47 @@
+{
+  "experiment_name": "hogl2_C1.0",
+  "num_classes": 500,
+  "num_train_images": 20000,
+  "num_validation_images": 5000,
+  "feature_dimension": 1764,
+  "features": {
+    "hog": {
+      "image_size": [
+        128,
+        128
+      ],
+      "orientations": 9,
+      "pixels_per_cell": [
+        16,
+        16
+      ],
+      "cells_per_block": [
+        2,
+        2
+      ],
+      "block_norm": "L2-Hys",
+      "transform_sqrt": true
+    },
+    "color": null,
+    "l2_normalize": true
+  },
+  "classifier": {
+    "standardize": false,
+    "dual": true,
+    "C": 1.0,
+    "max_iter": 3000,
+    "tol": 0.0001,
+    "random_state": 42,
+    "n_jobs": 12,
+    "verbose": 5
+  },
+  "training_seconds": 79.943,
+  "validation_inference_seconds": 0.796,
+  "validation_metrics": {
+    "top1_accuracy": 0.0246,
+    "top5_accuracy": 0.0746,
+    "macro_precision": 0.01939699216944943,
+    "macro_recall": 0.0246,
+    "macro_f1": 0.01989132077821002
+  }
+}

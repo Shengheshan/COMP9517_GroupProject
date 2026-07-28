@@ -1,0 +1,37 @@
+{
+  "experiment": "hog_svm",
+  "method": "HOG + spatial HSV colour histogram + linear SVM (one-vs-rest)",
+  "configuration": "configs/hog_color.yaml with C=0.3",
+  "selection_metric": "validation_macro_f1",
+  "device": "cpu",
+  "hardware": "Apple M4 Pro, 12 cores, 24 GB RAM",
+  "parallel_workers": 12,
+  "feature_dimension": 2276,
+  "training": {
+    "number_of_train_images": 20000,
+    "feature_extraction_seconds": 10.487,
+    "svm_fit_seconds": 136.291,
+    "total_training_seconds": 146.778,
+    "total_training_minutes": 2.446
+  },
+  "inference": {
+    "number_of_test_images": 5000,
+    "feature_extraction_seconds": 2.682,
+    "classification_seconds": 0.941,
+    "total_inference_seconds": 3.623,
+    "seconds_per_image": 0.000725,
+    "milliseconds_per_image": 0.725,
+    "images_per_second": 1380.07
+  },
+  "notes": [
+    "Inference time covers the full pipeline: JPEG decode, resize to 128x128, HOG descriptor, spatial HSV histogram, L2 normalisation and the linear SVM decision function.",
+    "Feature extraction and one-vs-rest SVM fitting both ran with 12 joblib workers, so all timings are wall clock on a fully loaded 12-core CPU rather than single-core time.",
+    "Validation feature extraction (5000 images, 2.688 s) supported the C sweep and is excluded from training time, which reports the cost of producing the final model only.",
+    "The four-value C sweep for this configuration cost roughly 368 s of additional SVM fitting."
+  ],
+  "sources": {
+    "feature_extraction_seconds": "{train,test}_color_info.json in the feature cache directory named by COMP9517_FEATURES_DIR (git ignored; absolute path omitted because it is machine specific)",
+    "svm_fit_seconds": "results/tables/color_C0.3_validation.json",
+    "classification_seconds": "results/predictions/hog_svm_timing.json"
+  }
+}
