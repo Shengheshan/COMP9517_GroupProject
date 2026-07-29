@@ -1,0 +1,16 @@
+{
+  "experiment": "resnet18_scratch_aligned",
+  "device": "cpu",
+  "checkpoint_epoch": 36,
+  "checkpoint_validation_macro_f1": 0.2775186709921271,
+  "checkpoint_validation_accuracy": 0.2962,
+  "selection_metric": "validation_macro_f1",
+  "aligned_protocol": true,
+  "imagenet_normalization": true,
+  "number_of_test_images": 5000,
+  "total_inference_seconds": 82.9133604000017,
+  "average_seconds_per_image": 0.01658267208000034,
+  "images_per_second": 60.30391213042546,
+  "batch_size": 32,
+  "num_workers": 0
+}

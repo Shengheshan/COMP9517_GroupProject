@@ -1,0 +1,10 @@
+{
+  "experiment": "resnet18_scratch",
+  "device": "cpu",
+  "checkpoint_epoch": 52,
+  "number_of_test_images": 5000,
+  "total_inference_seconds": 132.01686450000852,
+  "average_seconds_per_image": 0.026403372900001703,
+  "images_per_second": 37.87394905140833,
+  "batch_size": 32
+}
