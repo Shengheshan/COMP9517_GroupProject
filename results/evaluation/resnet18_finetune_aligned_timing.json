@@ -1,0 +1,14 @@
+{
+    "experiment": "resnet18_finetune_aligned",
+    "mode": "finetune",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "number_of_images": 5000,
+    "batch_size": 32,
+    "total_gpu_forward_time_seconds": 1.4411222000035195,
+    "average_gpu_forward_time_seconds_per_image": 0.0002882244400007039,
+    "images_per_second": 3469.5184072438747,
+    "checkpoint": "models\\resnet18_finetune_aligned_best.pth",
+    "best_epoch": 36,
+    "best_validation_macro_f1": 0.6886761830357416
+}
