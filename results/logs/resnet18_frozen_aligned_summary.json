@@ -1,0 +1,13 @@
+{
+    "experiment": "resnet18_frozen_aligned",
+    "mode": "frozen",
+    "best_epoch": 39,
+    "best_validation_macro_f1": 0.5869604551279559,
+    "total_training_time_seconds": 661.5872365,
+    "completed_epochs": 40,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 42,
+    "best_checkpoint": "models\\resnet18_frozen_aligned_best.pth"
+}

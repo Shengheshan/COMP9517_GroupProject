@@ -28,6 +28,13 @@ data/processed/**/*.jpg
 *.pth
 *.pt
 *.ckpt
+*.joblib
+
+# Cached HOG features
+results/features/
+
+# Run logs
+logs/
 
 # Python cache
 __pycache__/

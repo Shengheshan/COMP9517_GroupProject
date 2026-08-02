@@ -1,0 +1,43 @@
+{
+  "experiment_name": "hog_svm_baseline",
+  "num_classes": 500,
+  "num_train_images": 20000,
+  "num_validation_images": 5000,
+  "feature_dimension": 1764,
+  "hog": {
+    "image_size": [
+      128,
+      128
+    ],
+    "orientations": 9,
+    "pixels_per_cell": [
+      16,
+      16
+    ],
+    "cells_per_block": [
+      2,
+      2
+    ],
+    "block_norm": "L2-Hys",
+    "transform_sqrt": true
+  },
+  "classifier": {
+    "standardize": false,
+    "dual": true,
+    "C": 1.0,
+    "max_iter": 3000,
+    "tol": 0.0001,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbose": 5
+  },
+  "training_seconds": 192.826,
+  "validation_inference_seconds": 0.832,
+  "validation_metrics": {
+    "top1_accuracy": 0.016,
+    "top5_accuracy": 0.0476,
+    "macro_precision": 0.015928581385934327,
+    "macro_recall": 0.016,
+    "macro_f1": 0.015485407859599627
+  }
+}

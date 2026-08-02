@@ -1,0 +1,14 @@
+{
+    "experiment": "resnet18_frozen_aligned",
+    "mode": "frozen",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "number_of_images": 5000,
+    "batch_size": 32,
+    "total_gpu_forward_time_seconds": 1.4651516000049014,
+    "average_gpu_forward_time_seconds_per_image": 0.0002930303200009803,
+    "images_per_second": 3412.6161415537294,
+    "checkpoint": "models\\resnet18_frozen_aligned_best.pth",
+    "best_epoch": 39,
+    "best_validation_macro_f1": 0.5869604551279559
+}
