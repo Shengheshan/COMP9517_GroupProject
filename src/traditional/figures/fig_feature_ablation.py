@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
 TABLES_DIR = Path("results/tables")
-FIGURES_DIR = Path("results/figures")
+FIGURES_DIR = Path("results/figures/hog_svm")
 FIG_NAME = "fig_feature_ablation"
 
 COLOR_TOP1 = "#4C72B0"

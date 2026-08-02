@@ -21,7 +21,7 @@ PREDICTIONS = REPO / "results/predictions/hog_svm.csv"
 CONFUSION = REPO / "results/evaluation/hog_svm_confusion_matrix.npy"
 TIMING = REPO / "results/evaluation/hog_svm_timing.json"  # model name + configuration
 LABEL_MAP = REPO / "data_metadata/label_to_category.json"
-OUT_DIR = REPO / "results/figures"
+OUT_DIR = REPO / "results/figures/hog_svm"
 NAME = "fig_qualitative"
 
 # Images are read from outside the repository, never copied.

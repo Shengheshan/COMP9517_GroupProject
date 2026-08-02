@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.ticker import FixedLocator, NullFormatter, ScalarFormatter
 
-FIGURES_DIR = Path("results/figures")
+FIGURES_DIR = Path("results/figures/hog_svm")
 FIG_NAME = "fig_accuracy_vs_cost"
 
 COLOR_CPU = "#4C72B0"
