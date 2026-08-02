@@ -13,7 +13,7 @@ from matplotlib.ticker import FixedLocator, NullFormatter
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 TABLE_DIR = REPO_ROOT / "results" / "tables"
-FIGURE_DIR = REPO_ROOT / "results" / "figures"
+FIGURE_DIR = REPO_ROOT / "results" / "figures" / "hog_svm"
 FIGURE_NAME = "fig_c_sweep"
 
 PALETTE = ["#4C72B0", "#E69F00", "#55A868", "#C44E52", "#8172B3", "#937860"]

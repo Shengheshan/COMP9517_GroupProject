@@ -17,7 +17,7 @@ REPO = Path(__file__).resolve().parents[3]
 CM_PATH = REPO / "results/evaluation/hog_svm_confusion_matrix.npy"
 METRICS_PATH = REPO / "results/evaluation/hog_svm_metrics.json"
 META_PATH = REPO / "data_metadata/label_to_category.json"
-OUT_DIR = REPO / "results/figures"
+OUT_DIR = REPO / "results/figures/hog_svm"
 NAME = "fig_confusion"
 
 # Largest block panel (a) can render legibly at 7 pt species labels.
