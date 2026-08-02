@@ -1,0 +1,5 @@
+﻿Model,Device,Sample Count,Total Inference Time (s),Average Time per Image (ms)
+HOG + SVM,cpu,5000.0,3.623,0.725
+Scratch ResNet-18,cpu,5000.0,82.9133604000017,16.58267208000034
+Frozen ResNet-18,cuda: NVIDIA GeForce RTX 5070 Laptop GPU,5000.0,1.4651516000049014,0.2930303200009803
+Fine-tuned ResNet-18,cuda: NVIDIA GeForce RTX 5070 Laptop GPU,5000.0,1.4411222000035195,0.2882244400007039

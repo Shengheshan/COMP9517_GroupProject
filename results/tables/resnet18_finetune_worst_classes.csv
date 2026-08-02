@@ -1,0 +1,21 @@
+﻿true_label,true_species,sample_count,correct_count,incorrect_count,accuracy_percent
+247,Tyto alba,10,1,9,10.0
+410,Parsonsia heterophylla,10,1,9,10.0
+155,Rana draytonii,10,2,8,20.0
+174,Himantopus mexicanus,10,2,8,20.0
+180,Anastomus oscitans,10,2,8,20.0
+202,Hirundo neoxena,10,2,8,20.0
+253,Canis familiaris,10,2,8,20.0
+388,Euonymus alatus,10,2,8,20.0
+31,Xylocopa micans,10,3,7,30.0
+84,Autographa gamma,10,3,7,30.0
+127,Stylogomphus albistylus,10,3,7,30.0
+131,Pachydiplax longipennis,10,3,7,30.0
+161,Circus approximans,10,3,7,30.0
+193,Gerygone igata,10,3,7,30.0
+198,Corvus cornix,10,3,7,30.0
+203,Petrochelidon pyrrhonota,10,3,7,30.0
+216,Poecile hudsonicus,10,3,7,30.0
+217,Parkesia motacilla,10,3,7,30.0
+233,Vireo flavoviridis,10,3,7,30.0
+237,Butorides virescens,10,3,7,30.0

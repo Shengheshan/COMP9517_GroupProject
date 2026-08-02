@@ -1,0 +1,21 @@
+﻿true_label,true_species,predicted_label,predicted_species,error_count
+455,Nymphaea alba,456,Nymphaea odorata,6
+203,Petrochelidon pyrrhonota,202,Hirundo neoxena,4
+265,Masticophis mentovarius,266,Regina septemvittata,4
+496,Dryopteris carthusiana,494,Athyrium filix-femina,3
+212,Cinnyris jugularis,205,Icterus chrysater,3
+495,Pteridium aquilinum,494,Athyrium filix-femina,3
+140,Gryllus pennsylvanicus,139,Gryllus campestris,3
+497,Dryopteris cristata,496,Dryopteris carthusiana,3
+234,Vireo huttoni,232,Vireo bellii,3
+64,Didymoctenia exsuperata,66,Ectropis crepuscularia,3
+242,Ara ararauna,205,Icterus chrysater,3
+247,Tyto alba,157,Accipiter nisus,3
+268,Christinus marmoratus,271,Tarentola mauritanica,3
+314,Iris versicolor,312,Iris douglasiana,3
+488,Vitis riparia,481,Acer pseudoplatanus,3
+192,Fulica armillata,165,Melanitta deglandi,2
+138,Mermiria bivittata,137,Leptysma marginicollis,2
+90,Orthosia gothica,88,Ichneutica mutans,2
+90,Orthosia gothica,94,Macrurocampa marthesia,2
+230,Sayornis saya,357,Peucephyllum schottii,2
