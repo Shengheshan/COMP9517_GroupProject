@@ -14,10 +14,15 @@ data/processed/*
 !data/processed/README.md
 !data/data_meta/README.md
 
-# Images
-*.jpg
-*.jpeg
-*.png
+# Ignore raw dataset images
+data/raw/**/*.png
+data/raw/**/*.jpg
+data/processed/**/*.png
+data/processed/**/*.jpg
+
+# Keep experiment figures
+!results/figures/**/*.png
+!results/figures/**/*.jpg
 
 # Model checkpoints
 *.pth
