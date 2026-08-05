@@ -2,7 +2,8 @@
 # This file trains and validates ImageNet-pretrained ResNet-18 using:
 # 1. Frozen backbone with only the final classification layer trained
 # 2. Full-network fine-tuning
-# The aligned experiments use the shared dataset interface and transforms.
+# The experiments use the shared dataset interface and support
+# aligned augmentation or a no-augmentation ablation setting.
 
 import argparse
 import json
@@ -40,30 +41,45 @@ def set_seed(seed):
     torch.backends.cudnn.benchmark = True
 
 
-def create_transforms():
+def create_transforms(augmentation):
     weights = ResNet18_Weights.IMAGENET1K_V1
     mean = weights.transforms().mean
     std = weights.transforms().std
 
-    train_transform = transforms.Compose([
-        transforms.RandomResizedCrop(224),
-        transforms.RandomHorizontalFlip(),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=mean, std=std),
-    ])
+    normalize = transforms.Normalize(
+        mean=mean,
+        std=std,
+    )
+
+    if augmentation == "aligned":
+        train_transform = transforms.Compose([
+            transforms.RandomResizedCrop(224),
+            transforms.RandomHorizontalFlip(),
+            transforms.ToTensor(),
+            normalize,
+        ])
+    else:
+        train_transform = transforms.Compose([
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            normalize,
+        ])
 
     evaluation_transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
         transforms.ToTensor(),
-        transforms.Normalize(mean=mean, std=std),
+        normalize,
     ])
 
     return train_transform, evaluation_transform
 
 
 def create_loaders(args):
-    train_transform, evaluation_transform = create_transforms()
+    train_transform, evaluation_transform = (
+        create_transforms(args.augmentation)
+    )
 
     train_dataset = INatDataset(
         csv_path=args.train_csv,
@@ -276,6 +292,7 @@ def save_checkpoint(
     checkpoint = {
         "epoch": epoch,
         "mode": args.mode,
+        "augmentation": args.augmentation,
         "num_classes": args.num_classes,
         "model_state_dict": model.state_dict(),
         "optimizer_state_dict": optimizer.state_dict(),
@@ -293,6 +310,17 @@ def parse_arguments():
         "--mode",
         choices=["frozen", "finetune"],
         required=True,
+    )
+
+    parser.add_argument(
+        "--augmentation",
+        choices=["aligned", "noaug"],
+        default="aligned",
+        help=(
+            "Training transform setting. "
+            "'aligned' uses random crop and flip; "
+            "'noaug' uses deterministic resize and centre crop."
+        ),
     )
 
     parser.add_argument(
@@ -378,6 +406,7 @@ def main():
     )
 
     print(f"Mode: {args.mode}")
+    print(f"Augmentation: {args.augmentation}")
     print(f"Device: {device}")
 
     if device.type == "cuda":
@@ -467,8 +496,14 @@ def main():
         exist_ok=True,
     )
 
+    experiment_suffix = (
+        "aligned"
+        if args.augmentation == "aligned"
+        else "noaug"
+    )
+
     experiment_name = (
-        f"resnet18_{args.mode}_aligned"
+        f"resnet18_{args.mode}_{experiment_suffix}"
     )
 
     checkpoint_path = (
@@ -597,6 +632,7 @@ def main():
     summary = {
         "experiment": experiment_name,
         "mode": args.mode,
+        "augmentation": args.augmentation,
         "best_epoch": best_epoch,
         "best_validation_macro_f1": best_macro_f1,
         "total_training_time_seconds": (

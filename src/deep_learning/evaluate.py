@@ -1,6 +1,7 @@
-# Member 4: Aligned transfer learning evaluation and prediction export
-# This file evaluates the aligned ImageNet-pretrained ResNet-18 models
+# Member 4: Transfer learning evaluation and prediction export
+# This file evaluates ImageNet-pretrained ResNet-18 models
 # on the final test set and saves predictions in the shared CSV format.
+# It supports both aligned augmentation and no-augmentation experiments.
 
 import argparse
 import json
@@ -131,6 +132,15 @@ def parse_arguments():
     )
 
     parser.add_argument(
+        "--augmentation",
+        choices=["aligned", "noaug"],
+        default="aligned",
+        help=(
+            "Select which experiment checkpoint to evaluate."
+        ),
+    )
+
+    parser.add_argument(
         "--data-root",
         default=".",
     )
@@ -170,8 +180,14 @@ def main():
         else "cpu"
     )
 
+    experiment_suffix = (
+        "aligned"
+        if args.augmentation == "aligned"
+        else "noaug"
+    )
+
     experiment_name = (
-        f"resnet18_{args.mode}_aligned"
+        f"resnet18_{args.mode}_{experiment_suffix}"
     )
 
     checkpoint_path = (
@@ -249,6 +265,7 @@ def main():
     model = model.to(device)
 
     print(f"Experiment: {experiment_name}")
+    print(f"Augmentation: {args.augmentation}")
     print(f"Checkpoint: {checkpoint_path}")
     print(f"Device: {device}")
 
@@ -307,6 +324,7 @@ def main():
     timing_results = {
         "experiment": experiment_name,
         "mode": args.mode,
+        "augmentation": args.augmentation,
         "device": str(device),
         "gpu": (
             torch.cuda.get_device_name(0)
